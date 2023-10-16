@@ -6,7 +6,7 @@ SWEP.Spawnable = true
 SWEP.Category = "ARC9 - id Tech 4"
 SWEP.SubCategory = "Quake 4"
 
-SWEP.PrintName = "Rhino Modular Shotgun"
+SWEP.PrintName = "Rhino Shotgun"
 
 SWEP.Class = "Shotgun"
 
@@ -14,7 +14,7 @@ SWEP.Trivia = {
     Manufacturer = "United Earth Arms Developments",
     Calibre = "12 Gauge",
     Mechanism = "Pump Action",
-    Year = "2105"
+    Year = "2116"
 }
 
 SWEP.Credits = {

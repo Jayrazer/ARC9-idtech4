@@ -6,7 +6,7 @@ SWEP.Spawnable = true
 SWEP.Category = "ARC9 - id Tech 4"
 SWEP.SubCategory = "Doom 3"
 
-SWEP.PrintName = "UAC Combat Shotgun"
+SWEP.PrintName = "UAC Shotgun"
 
 SWEP.Class = "Shotgun"
 
@@ -22,7 +22,7 @@ SWEP.Credits = {
     Assets = "id Software, originally ported by Upset, c_hands by Seaal Mid",
 }
 
-SWEP.Description = [[Standard-issue combat shotgun for UAC Marines. While pump-action shotguns may be archaic, they're still powerful and reliable which has allowed them to remain popular for over 200 years. This model of shotgun was introduced in 2104 and while it sports high capacity in a compact form factor, it's oft-maligned by its users due to its wide spread.]]
+SWEP.Description = [[Standard-issue combat shotgun for UAC Marines. While pump-action shotguns may be archaic, they're still powerful and reliable which has allowed them to remain popular for over 200 years. While it sports high capacity in a compact form factor, it's oft-maligned by its users due to its wide spread.]]
 
 SWEP.ViewModel = "models/weapons/doom3/c_shotgun.mdl"
 SWEP.WorldModel = ""
@@ -163,12 +163,14 @@ SWEP.FreeAimRadiusMultSights = 0
 SWEP.SwayMultSights = 0.3
 
 SWEP.AimDownSightsTime = 0.35 -- How long it takes to go from hip fire to aiming down sights.
-SWEP.SprintToFireTime = 0.3 -- How long it takes to go from sprinting to being able to fire.
+SWEP.SprintToFireTime = 0.2 -- How long it takes to go from sprinting to being able to fire.
 
 SWEP.SpeedMult = 0.95
 SWEP.SpeedMultSights = 0.75
 SWEP.SpeedMultShooting = 1
 SWEP.SpeedMultCrouch = 1
+
+SWEP.ShootWhileSprint = true
 
 -------------------------- TRACERS
 
@@ -179,15 +181,15 @@ SWEP.TracerColor = Color(255, 225, 200) -- Color of tracers. Only works if trace
 
 SWEP.HasSights = false
 
-SWEP.SprintAng = Angle(30, -15, 0)
-SWEP.SprintPos = Vector(5, -4, 0)
+SWEP.SprintAng = Angle(5, -10, 0)
+SWEP.SprintPos = Vector(0, 1, 0)
 
 SWEP.ViewModelFOVBase = 70
 SWEP.ActivePos = Vector(1, 4, -1)
 SWEP.ActiveAng = Angle(5, 6, 0)
 
-SWEP.CrouchPos = Vector(-1, -3, -3)
-SWEP.CrouchAng = Angle(0, 0, 0)
+SWEP.CrouchPos = Vector(1, 4, -1)
+SWEP.CrouchAng = Angle(5, 6, 0)
 
 SWEP.CustomizeAng = Angle(90, 0, 0)
 SWEP.CustomizePos = Vector(22, 42, 5)
@@ -213,7 +215,7 @@ SWEP.AnimDraw = false
 
 SWEP.MuzzleParticle = "muzzleflash_shotgun" -- Used for some muzzle effects.
 
-SWEP.ShellEffect = "nil"
+SWEP.ShellEffect = "ShotgunShellEject"
 SWEP.ShellCorrectAng = Angle(0, 0, 0)
 SWEP.ShellScale = 1
 SWEP.ShellPhysBox = Vector(0.5, 0.5, 2)

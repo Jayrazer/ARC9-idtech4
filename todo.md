@@ -4,6 +4,8 @@
 - Attachments (Quake 4 upgrades, alternate ammo types for Doom 3 weapons, unique attachments (like Doom 3 shotgun reloading two shells at once))
 - Ammo displays
 - Projectile entities
+- Fix up viewmodels with missing verticies
+- Fix up some anims
 
 # Done
 - Doom 3 shotgun
