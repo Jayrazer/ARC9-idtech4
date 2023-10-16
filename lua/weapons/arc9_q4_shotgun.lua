@@ -6,7 +6,7 @@ SWEP.Spawnable = true
 SWEP.Category = "ARC9 - id Tech 4"
 SWEP.SubCategory = "Quake 4"
 
-SWEP.PrintName = "Rhino Combat Shotgun"
+SWEP.PrintName = "Rhino Modular Shotgun"
 
 SWEP.Class = "Shotgun"
 
@@ -22,7 +22,7 @@ SWEP.Credits = {
     Assets = "Raven Software, originally ported by Upset, c_hands by speedonerd",
 }
 
-SWEP.Description = [[Standard-issue combat shotgun for UAC Marines. While pump-action shotguns may be archaic, they're still powerful and reliable which has allowed them to remain popular for over 200 years. This model of shotgun was introduced in 2104 and while it sports high capacity in a compact form factor, it's oft-maligned by its users due to its wide spread.]]
+SWEP.Description = [[Special-purpose shotgun deployed with combat engineers for use in tight spaces. Boasts a tight spread but fires very few pellets. This model is of modular design and can be easily configured to feed from either a traditional tube magazine or a detachable box magazine.]]
 
 SWEP.ViewModel = "models/weapons/doom3/c_shotgun.mdl"
 SWEP.WorldModel = ""
@@ -47,7 +47,7 @@ SWEP.DefaultBodygroups = "0000000000000000000000"
 SWEP.DamageMax = 130 -- Damage done at point blank range
 SWEP.DamageMin = 100 -- Damage done at maximum range
 
-SWEP.Num = 10
+SWEP.Num = 5
 
 SWEP.DistributeDamage = true
 
@@ -145,7 +145,7 @@ SWEP.VisualRecoilCenter = Vector(4.525, 4, -3)
 
 -------------------------- SPREAD
 
-SWEP.Spread = 0.1
+SWEP.Spread = 0.05
 
 -------------------------- HANDLING
 
