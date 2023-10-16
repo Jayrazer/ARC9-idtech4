@@ -19,10 +19,10 @@ SWEP.Trivia = {
 
 SWEP.Credits = {
     Author = "speedonerd",
-    Assets = "Id Software, Upset",
+    Assets = "Id Software, originally ported by Upset, c_hands by Seaal Mid",
 }
 
-SWEP.Description = [[Standard-issue combat shotgun for UAC Marines. While pump-action shotguns may be archaic, they're still powerful and reliable which has allowed them to remain popular for over 200 years.]]
+SWEP.Description = [[Standard-issue combat shotgun for UAC Marines. While pump-action shotguns may be archaic, they're still powerful and reliable which has allowed them to remain popular for over 200 years. This model of shotgun was introduced in 2104 and while it sports high capacity in a compact form factor, it's oft-maligned by its users due to its wide spread.]]
 
 SWEP.ViewModel = "models/weapons/doom3/c_shotgun.mdl"
 SWEP.WorldModel = ""
@@ -85,14 +85,16 @@ SWEP.SupplyLimit = 4 -- Amount of magazines of ammo this gun can take from an AR
 
 SWEP.ReloadInSights = false -- This weapon can aim down sights while reloading.
 
+SWEP.AutoReload = true
+
 -------------------------- FIREMODES
 
-SWEP.RPM = 70
+SWEP.RPM = 50
 
 SWEP.Firemodes = {
     {
-        Mode = 1,
-		PrintName = "Pump Action"
+        Mode = -1,
+        PrintName = "Pump Action"
     }
 }
 
@@ -175,7 +177,7 @@ SWEP.TracerColor = Color(255, 225, 200) -- Color of tracers. Only works if trace
 
 -------------------------- POSITIONS
 
-SWEP.IronSights = nil
+SWEP.HasSights = false
 
 SWEP.SprintAng = Angle(30, -15, 0)
 SWEP.SprintPos = Vector(5, -4, 0)
@@ -211,6 +213,7 @@ SWEP.AnimDraw = false
 
 SWEP.MuzzleParticle = "muzzleflash_shotgun" -- Used for some muzzle effects.
 
+SWEP.ShellEffect = "nil"
 SWEP.ShellCorrectAng = Angle(0, 0, 0)
 SWEP.ShellScale = 1
 SWEP.ShellPhysBox = Vector(0.5, 0.5, 2)
@@ -220,54 +223,64 @@ SWEP.CaseEffectQCA = 2
 SWEP.AfterShotParticle = "barrel_smoke_plume"
 
 SWEP.CamQCA = 1
-SWEP.CamQCA_Mult = 1
+SWEP.CamQCA_Mult = 0.1
 SWEP.CamCoolView = true
 
 -------------------------- SOUNDS
 
-local path = "weapons/arc9_fas/rem870/rem870_"
-local common = "weapons/arc9_fas/"
+local path = "weapons/doom3/shotgun/"
 
-local insert = {
-    path .. "insert1.wav",
-    path .. "insert2.wav",
-    path .. "insert3.wav",
+local shellinsert = {
+    path .. "reload/sgreload_addshell_01.wav",
+    path .. "reload/sgreload_addshell_02.wav",
+    path .. "reload/sgreload_addshell_03.wav",
+    path .. "reload/sgreload_addshell_04.wav",
 }
 
-SWEP.ShootSound = path .. "fire1.wav"
-SWEP.DistantShootSound = "^" .. path .. "distance_fire1.wav"
-SWEP.ShootSoundSilenced = common .. "svd/svd_suppressed_fire1.wav"
-SWEP.DryFireSound = common .. "empty_shotguns.wav"
+SWEP.ShootSound = {
+    path .. "fire/sgfire_01.wav",
+    path .. "fire/sgfire_02.wav",
+    path .. "fire/sgfire_03.wav",
+}
+SWEP.DistantShootSound = path .. ""
+SWEP.ShootSoundSilenced = path .. ""
+SWEP.DryFireSound = path .. ""
 
 SWEP.DryFireSingleAction = true
 
-SWEP.TriggerDownSound = common .. "empty/triggerpull_pistol.wav"
-SWEP.TriggerUpSound = common .. "empty/triggerrelease_pistol.wav"
-
-local PumpBack = {
-    path .. "pump_back.wav",
-    path .. "pump_back1.wav",
-    path .. "pump_back2.wav",
-}
-
-local PumpForward = {
-    path .. "pump_forward.wav",
-    path .. "pump_forward1.wav",
-    path .. "pump_forward2.wav",
-}
 
 SWEP.Animations = {
+    ["draw"] = {
+        Source = "draw",
+        Time = 0.85,
+        EventTable = {
+            {s = path .. "shotgun_use_01.wav", t = 0},
+        }
+    },
 	["fire"] = {
-		Source = {"fire1", "fire2", "fire3"}
+		Source = {"fire1", "fire2", "fire3"},
+        EventTable = {
+            {s = path .. "shotgun_cock_01.wav", t = 11 / 33},
+        },
 	},
 	["reload_start"] = {
-		Source = "reloadstart"
+		Source = "reloadstart",
+        EventTable = {
+            {s = path .. "reload/sgreload_start_03.wav", t = 0},
+        },
 	},
 	["reload_insert"] = {
-		Source = {"reload1", "reload2", "reload3"}
+		Source = {"reload1", "reload2", "reload3"},
+        Time = 0.55,
+        EventTable = {
+            {s = shellinsert, t = 8 / 33}
+        }
 	},
 	["reload_finish"] = {
-		Source = "reloadend"
+		Source = "reloadend",
+        EventTable = {
+            {s = path .. "shotgun_cock_01.wav", t = 10 / 33},
+        },
 	},
 }
 
@@ -275,43 +288,6 @@ SWEP.SuppressCumulativeShoot = true
 SWEP.SuppressDefaultEvents = true
 
 -------------------------- ATTACHMENTS
-
-SWEP.HideBones = {
-    "shell01",
-    "shell02"
-}
-
-SWEP.ReloadHideBoneTables = {
-    [1] = {
-        "shell01",
-        "shell02"
-    },
-}
-
-SWEP.Hook_PrimaryAttack = function(self)
-    self:DoEject(1, 1)
-end
-
-
-SWEP.AttachmentElements = {
-    ["fas_perk_proficiency"] = {
-        ReloadTimeMult = 1
-    },
-    ["fas_ammo_shotgun"] = {
-        Bodygroups = {
-            {1, 1}
-        }
-    },
-    ["sight"] = {
-        ShotgunReloadIncludesChamber = false
-    }
-}
-
-SWEP.Hook_TranslateAnimation = function(self, anim)
-    if self:HasElement("sight") then
-        return anim .. "_sighted"
-    end
-end
 
 SWEP.Attachments = {
 
