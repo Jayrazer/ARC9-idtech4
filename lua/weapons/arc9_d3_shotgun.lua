@@ -3,7 +3,7 @@ AddCSLuaFile()
 SWEP.Base = "arc9_base"
 
 SWEP.Spawnable = true
-SWEP.Category = "ARC9 - IdTech 4"
+SWEP.Category = "ARC9 - id Tech 4"
 SWEP.SubCategory = "DOOM 3"
 
 SWEP.PrintName = "UAC Combat Shotgun"
@@ -19,7 +19,7 @@ SWEP.Trivia = {
 
 SWEP.Credits = {
     Author = "speedonerd",
-    Assets = "Id Software, originally ported by Upset, c_hands by Seaal Mid",
+    Assets = "id Software, originally ported by Upset, c_hands by Seaal Mid",
 }
 
 SWEP.Description = [[Standard-issue combat shotgun for UAC Marines. While pump-action shotguns may be archaic, they're still powerful and reliable which has allowed them to remain popular for over 200 years. This model of shotgun was introduced in 2104 and while it sports high capacity in a compact form factor, it's oft-maligned by its users due to its wide spread.]]
