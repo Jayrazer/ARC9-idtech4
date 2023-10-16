@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "sprites/doom3/f_machinegun"
+	"$additive" 1
+	"$vertexalpha" 1
+}

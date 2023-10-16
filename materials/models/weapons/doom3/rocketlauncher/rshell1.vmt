@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/weapons/doom3/rocketlauncher/rshell1"
+	"$bumpmap" "models/weapons/doom3/rocketlauncher/rshell1_local"
+	
+	"$phong" "1"
+	"$phongexponent" "30"
+	"$phongboost"	"1"
+	"$phongfresnelranges"	"[1 1 4]"
+}

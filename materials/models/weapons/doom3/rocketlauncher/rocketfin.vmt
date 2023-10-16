@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/doom3/rocketlauncher/rocketfin"
+	"$bumpmap" "models/weapons/doom3/rocketlauncher/rocketfin_local"
+	"$alphatest" 1
+	
+	"$phong" "1"
+	"$phongboost" ".4"
+	"$phongexponent" "80"
+	"$phongfresnelranges" "[1 1 1]"
+}

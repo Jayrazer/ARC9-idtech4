@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/weapons/doom3/grenades/grenades3fx"
+	"$additive" 1
+	"$selfillum" 1
+}

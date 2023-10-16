@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "doom3hud/crosshaircenter"
+	"$vertexcolor" "1"
+	"$alphatest" 1
+	"$nolod" 1
+}

@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "sprites/doom3/plasma_mflash"
+	"$additive" 1
+}

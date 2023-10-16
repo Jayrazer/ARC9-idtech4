@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/weapons/doom3/plasmagun/plasmagun_ventglow"
+	"$selfillum" 1
+	"$additive" 1
+}

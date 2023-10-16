@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/doom3/shell1/sshell"
+	"$bumpmap" "models/weapons/doom3/shell1/sshell_local"
+}

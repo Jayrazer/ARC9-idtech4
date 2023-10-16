@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/items/doom3/flashlight/flare"
+	"$additive" 1
+	"$selfillum" 1
+}

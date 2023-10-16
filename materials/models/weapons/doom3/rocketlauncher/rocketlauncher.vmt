@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/doom3/rocketlauncher/rocketlauncher"
+	"$bumpmap" "models/weapons/doom3/rocketlauncher/rocketlauncher_local"
+	
+	"$phong" "1"
+	"$phongboost" "1"
+	"$phongexponent" "8"
+	"$phongfresnelranges" "[1 1 8]"
+	
+	"$rimlight" "1"
+	"$rimlightexponent" "8"
+	"$rimlightboost" ".05"
+}

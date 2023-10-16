@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "sprites/doom3/q2bfgexp"
+	"$translucent" 1
+	"$vertexcolor" 1
+	"$additive" 1
+}

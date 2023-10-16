@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/doom3/pistol/pistol"
+	"$bumpmap" "models/weapons/doom3/pistol/pistol_local"
+	
+	"$phong" "1"
+	"$phongboost" ".5"
+	"$phongexponent" "15"
+	"$phongfresnelranges" "[1 1 8]"
+	
+	"$rimlight" "1"
+	"$rimlightexponent" "6"
+	"$rimlightboost" ".1"
+}

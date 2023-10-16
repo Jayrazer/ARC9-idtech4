@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/doom3/shotgun/w_shotgun2"
+	"$bumpmap" "models/weapons/doom3/shotgun/w_shotgun2_local"
+	
+	"$phong" "1"
+	"$phongboost" "1"
+	"$phongexponent" "10"
+	"$phongfresnelranges" "[1 1 4]"
+}

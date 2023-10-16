@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$baseTexture" "sprites/doom3/plasmablast"
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+}

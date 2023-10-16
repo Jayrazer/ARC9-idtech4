@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "vgui/ammogui/bg2"
+	"$additive" 1
+	"$selfillum" 1
+	"Proxies"
+	{
+		"Sine"
+		{
+			"sineperiod" .5
+			"sinemin" "1.5"
+			"sinemax" "2"
+			"resultVar" "$selfillumTint"
+		}
+	}
+}

@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/entities/weapon_doom3_plasmagun"
+	"$nolod" 1 
+}

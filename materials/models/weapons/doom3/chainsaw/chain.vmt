@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/doom3/chainsaw/chain"
+	"$bumpmap" "models/weapons/doom3/chainsaw/chain_local"
+	
+	"$phong" "1"
+	"$phongexponent" "3"
+	"$phongboost" "1"
+	"$phongfresnelranges" "[1 2 6]"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+		"textureScrollVar" "$basetexturetransform"
+		"textureScrollRate" 3
+		"textureScrollAngle" 90.00
+		}
+   }
+}

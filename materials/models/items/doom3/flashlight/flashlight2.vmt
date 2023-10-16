@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/items/doom3/flashlight/flashlight2"
+	"$bumpmap" "models/items/doom3/flashlight/flashlight2_local"
+	
+	"$phong" "1"
+	"$phongboost"	"1"
+	"$phongexponent" "15"
+	"$phongfresnelranges"	"[1 1 4]"
+}

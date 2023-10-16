@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/doom3/grenades/grenades3"
+	"$bumpmap" "models/weapons/doom3/grenades/grenades3_local"
+	
+	"$phong" "1"
+	"$phongboost" "1"
+	"$phongexponent" "8"
+	"$phongfresnelranges" "[1 1 2]"
+}
