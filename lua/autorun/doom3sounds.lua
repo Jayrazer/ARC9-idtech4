@@ -19,7 +19,7 @@ sound.Add(
 sound.Add( 
 {
     name = "Weapon_Doom3.SSGclick",
-    channel = CHAN_WEAPON,
+    channel = CHAN_ITEM,
     volume = 1.0,
     soundlevel = 80,
     sound = "weapons/doom3/ssg/click_01.wav"
@@ -28,7 +28,7 @@ sound.Add(
 sound.Add( 
 {
     name = "Weapon_Doom3.SSGclack",
-    channel = CHAN_WEAPON,
+    channel = CHAN_ITEM,
     volume = 1.0,
     soundlevel = 80,
     sound = "weapons/doom3/ssg/clack_01.wav"
@@ -37,7 +37,7 @@ sound.Add(
 sound.Add( 
 {
     name = "Weapon_Doom3.SSGinsert",
-    channel = CHAN_WEAPON,
+    channel = CHAN_ITEM,
     volume = 1.0,
     soundlevel = 80,
     sound = { "weapons/doom3/ssg/insert_01.wav", "weapons/doom3/ssg/insert_02.wav", "weapons/doom3/ssg/insert_03.wav" }
