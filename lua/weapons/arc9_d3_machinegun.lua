@@ -184,8 +184,8 @@ SWEP.SprintAng = Angle(5, -15, 0)
 SWEP.SprintPos = Vector(1, 1, 0)
 
 SWEP.ViewModelFOVBase = 80
-SWEP.ActivePos = Vector(0.75, 0, -0.5)
-SWEP.ActiveAng = Angle(5, 6, 0)
+SWEP.ActivePos = Vector(0.55, 0, -0.5)
+SWEP.ActiveAng = Angle(3, 6, 0)
 
 SWEP.CrouchPos = Vector(1, 3, -0.5)
 SWEP.CrouchAng = Angle(5, 6, 0)
