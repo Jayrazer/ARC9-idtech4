@@ -90,7 +90,7 @@ SWEP.AutoReload = true
 
 -------------------------- FIREMODES
 
-SWEP.RPM = 50
+SWEP.RPM = 60
 
 SWEP.Firemodes = {
     {
@@ -170,8 +170,6 @@ SWEP.SpeedMult = 1
 SWEP.SpeedMultSights = 0.75
 SWEP.SpeedMultShooting = 1
 SWEP.SpeedMultCrouch = 1
-
-SWEP.ShootWhileSprint = true
 
 -------------------------- TRACERS
 
@@ -274,7 +272,6 @@ SWEP.Animations = {
 	},
 	["reload_insert"] = {
 		Source = {"reload1", "reload2", "reload3"},
-        Time = 0.55,
         EventTable = {
             {s = shellinsert, t = 8 / 33}
         }

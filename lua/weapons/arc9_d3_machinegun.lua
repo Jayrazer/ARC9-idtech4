@@ -13,7 +13,7 @@ SWEP.Class = "Machine Gun"
 SWEP.Trivia = {
     Manufacturer = "UAC Small Arms Division",
     Calibre = "6mm Caseless",
-    Mechanism = "Striker-fired",
+    Mechanism = "Gas-Operated Rotary Breech",
     Year = "2139"
 }
 
@@ -28,7 +28,7 @@ Standard-issue automatic weapon for UAC Marines and Mars City Security Forces, c
 SWEP.ViewModel = "models/weapons/doom3/c_machinegun.mdl"
 SWEP.WorldModel = ""
 
-SWEP.Slot = 1
+SWEP.Slot = 3
 
 SWEP.MirrorVMWM = true
 SWEP.WorldModelOffset = {
@@ -164,14 +164,12 @@ SWEP.FreeAimRadiusMultSights = 0
 SWEP.SwayMultSights = 0.3
 
 SWEP.AimDownSightsTime = 0.35 -- How long it takes to go from hip fire to aiming down sights.
-SWEP.SprintToFireTime = 0.3 -- How long it takes to go from sprinting to being able to fire.
+SWEP.SprintToFireTime = 0.1 -- How long it takes to go from sprinting to being able to fire.
 
 SWEP.SpeedMult = 1
 SWEP.SpeedMultSights = 0.75
 SWEP.SpeedMultShooting = 1
 SWEP.SpeedMultCrouch = 1
-
-SWEP.ShootWhileSprint = true
 
 -------------------------- TRACERS
 

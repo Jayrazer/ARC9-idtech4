@@ -23,7 +23,7 @@ SWEP.Credits = {
 }
 
 SWEP.Description = [[Vulcan 1270 Double-Barrel Shotgun
-Double-barreled shotgun designed for sport shooting and hunting. Despite not being designed for combat, it is devestating up close, and will turn anything short of a solid block of steel into a bloody pulp.]]
+Double-barreled shotgun designed for sport shooting and hunting. Despite not being designed for combat, it is absolutely devestating up close and will turn anything short of a solid block of steel into a bloody pulp.]]
 
 SWEP.ViewModel = "models/weapons/doom3/c_dshotgun.mdl"
 SWEP.WorldModel = ""
@@ -48,7 +48,7 @@ SWEP.DefaultBodygroups = "0000000000000000000000"
 SWEP.DamageMax = 135 -- Damage done at point blank range
 SWEP.DamageMin = 120 -- Damage done at maximum range
 
-SWEP.Num = 15
+SWEP.Num = 14
 
 SWEP.DistributeDamage = true
 
@@ -166,14 +166,12 @@ SWEP.FreeAimRadiusMultSights = 0
 SWEP.SwayMultSights = 0.3
 
 SWEP.AimDownSightsTime = 0.35 -- How long it takes to go from hip fire to aiming down sights.
-SWEP.SprintToFireTime = 0.2 -- How long it takes to go from sprinting to being able to fire.
+SWEP.SprintToFireTime = 0.25 -- How long it takes to go from sprinting to being able to fire.
 
 SWEP.SpeedMult = 0.95
 SWEP.SpeedMultSights = 0.75
 SWEP.SpeedMultShooting = 1
 SWEP.SpeedMultCrouch = 1
-
-SWEP.ShootWhileSprint = true
 
 -------------------------- TRACERS
 
