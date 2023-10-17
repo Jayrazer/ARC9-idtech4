@@ -185,15 +185,15 @@ SWEP.HasSights = false
 SWEP.SprintAng = Angle(5, -15, 0)
 SWEP.SprintPos = Vector(1, 1, 0)
 
-SWEP.ViewModelFOVBase = 70
-SWEP.ActivePos = Vector(1, 3, -0.5)
+SWEP.ViewModelFOVBase = 80
+SWEP.ActivePos = Vector(0.75, 0, -0.5)
 SWEP.ActiveAng = Angle(5, 6, 0)
 
 SWEP.CrouchPos = Vector(1, 3, -0.5)
 SWEP.CrouchAng = Angle(5, 6, 0)
 
 SWEP.CustomizeAng = Angle(90, 0, 0)
-SWEP.CustomizePos = Vector(22, 42, 5)
+SWEP.CustomizePos = Vector(9, 27, 6)
 SWEP.CustomizeSnapshotFOV = 100
 
 SWEP.BipodPos = Vector(0, 0, 0)
