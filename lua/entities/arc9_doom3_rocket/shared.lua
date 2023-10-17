@@ -1,7 +1,7 @@
 
 ENT.Type 			= "anim"
 ENT.Base 			= "base_anim"
-ENT.PrintName		= "Doom3Rocket"
+ENT.PrintName		= "ARC9Doom3Rocket"
 ENT.Author			= "Upset"
 
 ENT.Spawnable			= false

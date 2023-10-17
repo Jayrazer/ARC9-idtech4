@@ -28,7 +28,7 @@ function ENT:Initialize()
 end
 
 function ENT:PhysicsCollide(data, physobj)
-	local dmg = cvars.Number("doom3_sk_plasmagun_damage")
+	local dmg = 30
 	data.HitEntity:TakeDamage(dmg, self:GetOwner())
 	local start = data.HitPos + data.HitNormal
     local endpos = data.HitPos - data.HitNormal

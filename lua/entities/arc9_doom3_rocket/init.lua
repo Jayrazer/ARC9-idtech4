@@ -47,7 +47,7 @@ function ENT:Initialize()
 end
 
 function ENT:PhysicsCollide(data, physobj)
-	local rad, dmg = cvars.Number("doom3_sk_rocketlauncher_radius"), cvars.Number("doom3_sk_rocketlauncher_damage")
+	local rad, dmg = 125, 100
 	local start = data.HitPos + data.HitNormal
     local endpos = data.HitPos - data.HitNormal
 	
