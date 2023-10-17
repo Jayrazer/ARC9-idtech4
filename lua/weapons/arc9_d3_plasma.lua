@@ -41,6 +41,7 @@ SWEP.NoTPIKVMPos = true
 
 SWEP.Crosshair = true
 SWEP.LauncherCrosshair = false
+SWEP.MissileCrosshair = false
 
 SWEP.DefaultBodygroups = "0000000000000000000000"
 
@@ -239,7 +240,7 @@ SWEP.AnimDraw = false
 
 -------------------------- EFFECTS
 
-SWEP.MuzzleParticle = "doom3_plasma_muzzle" -- Used for some muzzle effects.
+SWEP.MuzzleParticle = "muzzleflash_smg" -- Used for some muzzle effects.
 
 SWEP.ShellEffect = "nil"
 SWEP.ShellCorrectAng = Angle(0, 0, 0)
