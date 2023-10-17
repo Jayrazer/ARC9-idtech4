@@ -11,7 +11,7 @@ SWEP.PrintName = "UAC Shotgun"
 SWEP.Class = "Shotgun"
 
 SWEP.Trivia = {
-    Manufacturer = "UAC Small Arms Division",
+    Manufacturer = "Vulcan Arms",
     Calibre = "12 Gauge",
     Mechanism = "Pump Action",
     Year = "2104"
@@ -22,7 +22,8 @@ SWEP.Credits = {
     Assets = "id Software, originally ported by Upset, c_hands by Seaal Mid",
 }
 
-SWEP.Description = [[Standard-issue combat shotgun for UAC Marines. While pump-action shotguns may be archaic, they're still powerful and reliable which has allowed them to remain popular for over 200 years. While it sports high capacity in a compact form factor, it's oft-maligned by its users due to its wide spread.]]
+SWEP.Description = [[Vulcan 920 Combat Shotgun
+Standard-issue combat shotgun for UAC Marines. While pump-action shotguns may be archaic, they're still powerful and reliable which has allowed them to remain popular for over 200 years. While it sports high capacity in a compact form factor, it's oft-maligned by its users due to its wide spread.]]
 
 SWEP.ViewModel = "models/weapons/doom3/c_shotgun.mdl"
 SWEP.WorldModel = ""
@@ -165,7 +166,7 @@ SWEP.SwayMultSights = 0.3
 SWEP.AimDownSightsTime = 0.35 -- How long it takes to go from hip fire to aiming down sights.
 SWEP.SprintToFireTime = 0.2 -- How long it takes to go from sprinting to being able to fire.
 
-SWEP.SpeedMult = 0.95
+SWEP.SpeedMult = 1
 SWEP.SpeedMultSights = 0.75
 SWEP.SpeedMultShooting = 1
 SWEP.SpeedMultCrouch = 1
@@ -191,8 +192,8 @@ SWEP.ActiveAng = Angle(5, 6, 0)
 SWEP.CrouchPos = Vector(1, 4, -1)
 SWEP.CrouchAng = Angle(5, 6, 0)
 
-SWEP.CustomizeAng = Angle(90, 0, 0)
-SWEP.CustomizePos = Vector(22, 42, 5)
+SWEP.CustomizeAng = Angle(90, 5, 7)
+SWEP.CustomizePos = Vector(18, 38, 5)
 SWEP.CustomizeSnapshotFOV = 100
 
 SWEP.BipodPos = Vector(0, 0, 0)

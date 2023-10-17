@@ -2,7 +2,7 @@ AddCSLuaFile()
 
 SWEP.Base = "arc9_base"
 
-SWEP.Spawnable = true
+SWEP.Spawnable = false
 SWEP.Category = "ARC9 - id Tech 4"
 SWEP.SubCategory = "Quake 4"
 
