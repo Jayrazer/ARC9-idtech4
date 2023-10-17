@@ -215,12 +215,12 @@ SWEP.AnimDraw = false
 
 SWEP.MuzzleParticle = "muzzleflash_shotgun" -- Used for some muzzle effects.
 
-SWEP.ShellEffect = "ShotgunShellEject"
+SWEP.ShellEffect = "nil"
 SWEP.ShellCorrectAng = Angle(0, 0, 0)
 SWEP.ShellScale = 1
 SWEP.ShellPhysBox = Vector(0.5, 0.5, 2)
 SWEP.EjectDelay = 0
-SWEP.CaseEffectQCA = 2
+SWEP.CaseEffectQCA = 1
 
 SWEP.AfterShotParticle = "barrel_smoke_plume"
 
