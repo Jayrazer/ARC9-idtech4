@@ -46,7 +46,7 @@ SWEP.DefaultBodygroups = "0000000000000000000000"
 -------------------------- DAMAGE PROFILE
 
 SWEP.DamageMax = 15 -- Damage done at point blank range
-SWEP.DamageMin = 8 -- Damage done at maximum range
+SWEP.DamageMin = 15 -- Damage done at maximum range
 
 SWEP.Num = 1
 
@@ -61,13 +61,13 @@ SWEP.Penetration = 1 -- Units of wood that can be penetrated by this gun.
 SWEP.RicochetChance = 0.1
 
 SWEP.BodyDamageMults = {
-    [HITGROUP_HEAD] = 1,
+    [HITGROUP_HEAD] = 2,
     [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
-    [HITGROUP_LEFTLEG] = 0.9,
-    [HITGROUP_RIGHTLEG] = 0.9,
+    [HITGROUP_LEFTLEG] = 1,
+    [HITGROUP_RIGHTLEG] = 1,
 }
 
 -------------------------- PHYS BULLET BALLISTICS
@@ -78,7 +78,7 @@ SWEP.PhysBulletDrag = 3
 
 -------------------------- MAGAZINE
 
-SWEP.Ammo = "smg1" -- What ammo type this gun uses.
+SWEP.Ammo = "pistol" -- What ammo type this gun uses.
 
 SWEP.ChamberSize = 0 -- The amount of rounds this gun can chamber.
 SWEP.ClipSize = 12 -- Self-explanatory.

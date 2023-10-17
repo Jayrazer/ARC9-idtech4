@@ -45,10 +45,10 @@ SWEP.DefaultBodygroups = "0000000000000000000000"
 
 -------------------------- DAMAGE PROFILE
 
-SWEP.DamageMax = 135 -- Damage done at point blank range
-SWEP.DamageMin = 120 -- Damage done at maximum range
+SWEP.DamageMax = 16 -- Damage done at point blank range
+SWEP.DamageMin = 16 -- Damage done at maximum range
 
-SWEP.Num = 14
+SWEP.Num = 18
 
 SWEP.DistributeDamage = true
 
@@ -61,13 +61,13 @@ SWEP.Penetration = 1 -- Units of wood that can be penetrated by this gun.
 SWEP.RicochetChance = 0.1
 
 SWEP.BodyDamageMults = {
-    [HITGROUP_HEAD] = 1.15,
-    [HITGROUP_CHEST] = 1.1,
+    [HITGROUP_HEAD] = 2,
+    [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
-    [HITGROUP_LEFTLEG] = 0.9,
-    [HITGROUP_RIGHTLEG] = 0.9,
+    [HITGROUP_LEFTLEG] = 1,
+    [HITGROUP_RIGHTLEG] = 1,
 }
 
 -------------------------- PHYS BULLET BALLISTICS
@@ -91,7 +91,7 @@ SWEP.AutoReload = true
 
 -------------------------- FIREMODES
 
-SWEP.RPM = 25
+SWEP.RPM = 27
 
 SWEP.Firemodes = {
     {
@@ -148,7 +148,7 @@ SWEP.VisualRecoilCenter = Vector(4.525, 4, -3)
 
 -------------------------- SPREAD
 
-SWEP.Spread = 0.12
+SWEP.Spread = 0.15
 
 -------------------------- HANDLING
 
@@ -251,11 +251,12 @@ SWEP.Animations = {
     },
 	["fire"] = {
 		Source = "fire2",
+		Mult = 0.95,
         EventTable = {
             {s = "Weapon_Doom3.SSGClick", t = 23 / 33},
             {s = "Weapon_Doom3.SSGInsert", t = 42 / 33},
             {s = "Weapon_Doom3.SSGInsert", t = 49 / 33},
-            {s = "Weapon_Doom3.SSGClack", t = 65 / 33},
+            {s = "Weapon_Doom3.SSGClack", t = 66 / 33},
         },
 	},
 }

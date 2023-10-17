@@ -45,10 +45,10 @@ SWEP.DefaultBodygroups = "0000000000000000000000"
 
 -------------------------- DAMAGE PROFILE
 
-SWEP.DamageMax = 130 -- Damage done at point blank range
-SWEP.DamageMin = 100 -- Damage done at maximum range
+SWEP.DamageMax = 15 -- Damage done at point blank range
+SWEP.DamageMin = 15 -- Damage done at maximum range
 
-SWEP.Num = 10
+SWEP.Num = 12
 
 SWEP.DistributeDamage = true
 
@@ -61,13 +61,13 @@ SWEP.Penetration = 1 -- Units of wood that can be penetrated by this gun.
 SWEP.RicochetChance = 0.1
 
 SWEP.BodyDamageMults = {
-    [HITGROUP_HEAD] = 1.15,
+    [HITGROUP_HEAD] = 2,
     [HITGROUP_CHEST] = 1.1,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
-    [HITGROUP_LEFTLEG] = 0.9,
-    [HITGROUP_RIGHTLEG] = 0.9,
+    [HITGROUP_LEFTLEG] = 1,
+    [HITGROUP_RIGHTLEG] = 1,
 }
 
 -------------------------- PHYS BULLET BALLISTICS
@@ -90,7 +90,7 @@ SWEP.AutoReload = true
 
 -------------------------- FIREMODES
 
-SWEP.RPM = 60
+SWEP.RPM = 45
 
 SWEP.Firemodes = {
     {
