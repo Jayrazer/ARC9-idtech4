@@ -272,6 +272,7 @@ SWEP.Animations = {
 	},
 	["reload_insert"] = {
 		Source = {"reload1", "reload2", "reload3"},
+		RestoreAmmo = 1,
         EventTable = {
             {s = shellinsert, t = 8 / 33}
         }

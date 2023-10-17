@@ -83,7 +83,6 @@ SWEP.Ammo = "buckshot" -- What ammo type this gun uses.
 SWEP.ChamberSize = 0 -- The amount of rounds this gun can chamber.
 SWEP.ClipSize = 2 -- Self-explanatory.
 SWEP.SupplyLimit = 25 -- Amount of magazines of ammo this gun can take from an ARC9 supply crate.
-SWEP.BottomlessClip = true
 
 SWEP.ReloadInSights = false -- This weapon can aim down sights while reloading.
 
@@ -252,6 +251,7 @@ SWEP.Animations = {
 	["fire"] = {
 		Source = "fire2",
 		Mult = 0.95,
+		RestoreAmmo = 2, t = 50 / 33, -- bit of a hack, makes the weapon's ammo display correctly on all HUDs instead of just taking ammo directly from reserve
         EventTable = {
             {s = "Weapon_Doom3.SSGClick", t = 23 / 33},
             {s = "Weapon_Doom3.SSGInsert", t = 42 / 33},
