@@ -1,0 +1,74 @@
+$definebone "ValveBiped.Bip01_R_Clavicle" "" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_UpperArm" "lft_shldr" -10 -3 0 0 0 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Forearm" "lft_elbo" -6 1 1 0 -10 90 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Hand" "lft_wrst" -2.5 0 -0.5 -10 -10 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger0" "lft_thmb_1" 0 -1.5 -0.5 0 25 45 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger01" "lft_thmb_2" 1 -1 0 0 0 45 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger02" "lft_thmb_3" 1 -0.75 0 -15 0 0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger1" "lft_ndx_1" -1 -0.5 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger11" "lft_ndx_2" -0.5 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger12" "lft_ndx_3" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger2" "lft_mddl_1" -1 -0.5 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger21" "lft_mddl_2" -0.5 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger22" "lft_mddl_3" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger3" "lft_ring_1" -1 -0.5 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger31" "lft_ring_2" -0.5 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger32" "lft_ring_3" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger4" "lft_pnky_1" -1 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger41" "lft_pnky_2" -0.25 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_L_Finger42" "lft_pnky_3" 0 0 0 0 0 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_UpperArm" "" -12 -6 -8 0 0 -0 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Forearm" "rt_elbo" 9 0 0 0 180 -100 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Hand" "rt_wrst" 2 1 -0.25 -170 30 -25 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger0" "rt_thmb_1" 0 0 0 0 180 0 0 0 0 0 0 0
+//$definebone "ValveBiped.Bip01_R_Finger01" "rt_thmb_2" -2 -1 2 45 180 0 0 0 0 0 0 0
+//$definebone "ValveBiped.Bip01_R_Finger02" "rt_thmb_3" -1 -1 1 90 0 45 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger1" "rt_ndx_1" 1 0 0.25 0 180 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger11" "rt_ndx_2" 0 0.15 0.25 0 180 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger12" "rt_ndx_3" 0.25 0 0.25 0 180 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger2" "rt_ndx_1" 0.5 0 -0.5 0 180 180 0 0 0 0 0 0
+$definebone "ValveBiped.Bip01_R_Finger3" "rt_ring_1" 1 0 0.25 0 180 180 0 0 0 0 0 0
+//$definebone "ValveBiped.Bip01_R_Finger31" "rt_ring_2" 0 0 0 0 180 180 0 0 0 0 0 0
+//$definebone "ValveBiped.Bip01_R_Finger32" "rt_ring_3" 0 0 0 0 180 180 0 0 0 0 0 0
+
+$bonemerge "ValveBiped.Bip01_Spine4"
+$bonemerge "ValveBiped.Bip01_R_Clavicle"
+$bonemerge "ValveBiped.Bip01_R_UpperArm"
+$bonemerge "ValveBiped.Bip01_R_Forearm"
+$bonemerge "ValveBiped.Bip01_R_Hand"
+$bonemerge "ValveBiped.Bip01_R_Wrist"
+$bonemerge "ValveBiped.Bip01_R_Finger4"
+$bonemerge "ValveBiped.Bip01_R_Finger41"
+$bonemerge "ValveBiped.Bip01_R_Finger42"
+$bonemerge "ValveBiped.Bip01_R_Finger3"
+$bonemerge "ValveBiped.Bip01_R_Finger31"
+$bonemerge "ValveBiped.Bip01_R_Finger32"
+$bonemerge "ValveBiped.Bip01_R_Finger2"
+$bonemerge "ValveBiped.Bip01_R_Finger21"
+$bonemerge "ValveBiped.Bip01_R_Finger22"
+$bonemerge "ValveBiped.Bip01_R_Finger1"
+$bonemerge "ValveBiped.Bip01_R_Finger11"
+$bonemerge "ValveBiped.Bip01_R_Finger12"
+$bonemerge "ValveBiped.Bip01_R_Finger0"
+$bonemerge "ValveBiped.Bip01_R_Finger01"
+$bonemerge "ValveBiped.Bip01_R_Finger02"
+$bonemerge "ValveBiped.Bip01_L_Clavicle"
+$bonemerge "ValveBiped.Bip01_L_UpperArm"
+$bonemerge "ValveBiped.Bip01_L_Forearm"
+$bonemerge "ValveBiped.Bip01_L_Hand"
+$bonemerge "ValveBiped.Bip01_L_Wrist"
+$bonemerge "ValveBiped.Bip01_L_Finger4"
+$bonemerge "ValveBiped.Bip01_L_Finger41"
+$bonemerge "ValveBiped.Bip01_L_Finger42"
+$bonemerge "ValveBiped.Bip01_L_Finger3"
+$bonemerge "ValveBiped.Bip01_L_Finger31"
+$bonemerge "ValveBiped.Bip01_L_Finger32"
+$bonemerge "ValveBiped.Bip01_L_Finger2"
+$bonemerge "ValveBiped.Bip01_L_Finger21"
+$bonemerge "ValveBiped.Bip01_L_Finger22"
+$bonemerge "ValveBiped.Bip01_L_Finger1"
+$bonemerge "ValveBiped.Bip01_L_Finger11"
+$bonemerge "ValveBiped.Bip01_L_Finger12"
+$bonemerge "ValveBiped.Bip01_L_Finger0"
+$bonemerge "ValveBiped.Bip01_L_Finger01"
+$bonemerge "ValveBiped.Bip01_L_Finger02"
