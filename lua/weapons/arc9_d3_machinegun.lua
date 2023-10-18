@@ -6,7 +6,7 @@ SWEP.Spawnable = true
 SWEP.Category = "ARC9 - id Tech 4"
 SWEP.SubCategory = "Doom 3"
 
-SWEP.PrintName = "Machine Gun"
+SWEP.PrintName = " UAC Machinegun"
 
 SWEP.Class = "Machine Gun"
 

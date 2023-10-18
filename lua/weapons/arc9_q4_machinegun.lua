@@ -2,11 +2,11 @@ AddCSLuaFile()
 
 SWEP.Base = "arc9_base"
 
-SWEP.Spawnable = true
+SWEP.Spawnable = false
 SWEP.Category = "ARC9 - id Tech 4"
 SWEP.SubCategory = "Quake 4"
 
-SWEP.PrintName = "Machine Gun"
+SWEP.PrintName = "Rhino Machinegun"
 
 SWEP.Class = "Assault Rifle"
 
@@ -22,8 +22,8 @@ SWEP.Credits = {
     Assets = "id Software, originally ported by Upset, c_hands by speedonerd",
 }
 
-SWEP.Description = [[MG-88 Avenger
-Standard-issue automatic weapon for UAC Marines and Mars City Security Forces, capable of a high rate of fire thanks to its two reciprocating barrels. Though it boasts a high capacity and low recoil, its raw per-shot damage leaves something to be desired.]]
+SWEP.Description = [[AR-25 Assault Rifle
+Standard-issue infantry automatic weapon for SMC Marine forces. The weapon features an integral low-power gunsight and a dual-mode trigger that allows for a powerful semi-auto shot when scoped.]]
 
 SWEP.ViewModel = "models/weapons/quake4/c_q4_machinegun.mdl"
 SWEP.WorldModel = ""
@@ -245,29 +245,15 @@ SWEP.CamCoolView = true
 
 -------------------------- SOUNDS
 
-local path = "weapons/doom3/machinegun/"
-
-local shootmech = {
-    path .. "mg_mech_01.wav",
-    path .. "mg_mech_02.wav",
-    path .. "mg_mech_03.wav",
-}
-local dryfiresound = {
-    path .. "dryfire/mgdf_01.wav",
-    path .. "dryfire/mgdf_02.wav",
-    path .. "dryfire/mgdf_03.wav",
-}
+local path = "weapons/quake4/machinegun/"
 
 SWEP.ShootSound = {
-    path .. "fire/machgun_shot_1.wav",
-    path .. "fire/machgun_shot_2.wav",
-    path .. "fire/machgun_shot_3.wav",
-    path .. "fire/machgun_shot_4.wav",
-    path .. "fire/machgun_shot_5.wav",
+    path .. "player_fire0.ogg",
+    path .. "player_fire1.ogg",
 }
 SWEP.DistantShootSound = path .. ""
 SWEP.ShootSoundSilenced = path .. ""
-SWEP.DryFireSound = dryfiresound
+SWEP.DryFireSound = path .. "dry_fire.ogg"
 
 SWEP.DryFireSingleAction = true
 
@@ -276,22 +262,25 @@ SWEP.Animations = {
     ["idle"] = {
         Source = "idle"
     },
+	["holster"] = {
+		Source = "lower"
+	},
     ["draw"] = {
-        Source = "draw",
+        Source = "raise",
         EventTable = {
-        }
+			{s = path .. "draw.ogg", t = 3 / 33},
+        },
     },
 	["fire"] = {
 		Source = "fire",
         EventTable = {
-            {s = shootmech, t = 0},
         },
 	},
 	["reload"] = {
 		Source = "reload",
         Mult = 1.05,
         EventTable = {
-            {s = path .. "mg_reload_01.wav", t = 0}
+            {s = path .. "reload.ogg", t = 1 / 33}
         },
 	},
     ["dryfire"] = {
