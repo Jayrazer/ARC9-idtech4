@@ -19,7 +19,7 @@ SWEP.Trivia = {
 
 SWEP.Credits = {
     Author = "speedonerd",
-    Assets = "id Software, originally ported by Upset, c_hands by speedonerd",
+    Assets = "Raven Software, originally ported by Hidden, c_hands by speedonerd",
 }
 
 SWEP.Description = [[Raven 1080 Shotgun
@@ -184,11 +184,11 @@ SWEP.SprintAng = Angle(5, -10, 0)
 SWEP.SprintPos = Vector(0, -7, 0)
 
 SWEP.ViewModelFOVBase = 62
-SWEP.ActivePos = Vector(-1, -7, -0.5)
-SWEP.ActiveAng = Angle(-3, 3, 0)
+SWEP.ActivePos = Vector(-1, -6, 0)
+SWEP.ActiveAng = Angle(-3, 0, 0)
 
-SWEP.CrouchPos = Vector(1, 4, -1)
-SWEP.CrouchAng = Angle(5, 6, 0)
+SWEP.CrouchPos = Vector(-2, -6, -1)
+SWEP.CrouchAng = Angle(-3, 0, 0)
 
 SWEP.CustomizeAng = Angle(90, 5, -2)
 SWEP.CustomizePos = Vector(28, 30, 5)
@@ -308,7 +308,7 @@ SWEP.AttachmentElements = {
 
 SWEP.Attachments = {
 	{
-		PrintName = "Attachment",
+		PrintName = "Ammo",
 		Bone = "body",
 		Pos = Vector(0, 0, 2),
         Ang = Angle(0, 0, 0),

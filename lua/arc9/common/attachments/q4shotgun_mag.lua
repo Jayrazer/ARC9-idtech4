@@ -1,7 +1,7 @@
 ATT.PrintName = [[Rhino Shotgun Detachable Box Magazine]]
 ATT.CompactName = [[MAGFED]]
 //ATT.Icon = Material()
-ATT.Description = [[Detachable box magazine for the Rhino Shotgun, extended the weapon's capacity and speeding up reload times.]]
+ATT.Description = [[Detachable box magazine for the Rhino Shotgun, extending the weapon's capacity and speeding up reload times.]]
 ATT.SortOrder = 0
 ATT.Free = false
 
