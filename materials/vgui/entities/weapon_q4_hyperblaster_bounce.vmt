@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/entities/weapon_q4_hyperblaster_bounce"
+	"$nolod" 1 
+}

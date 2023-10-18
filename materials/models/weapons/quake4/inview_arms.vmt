@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/quake4/inview_arms_d"
+	"$bumpmap" "models/weapons/quake4/inview_arms_local"
+	"$phong" "1"
+	"$phongexponent" "16"
+	"$phongboost"	"1"
+	"$phongalbedoboost" 	"-1"
+	"$phongfresnelranges"	"[.03 .6 .9]"
+	"$normalmapalphaphongmask" "1"	
+}

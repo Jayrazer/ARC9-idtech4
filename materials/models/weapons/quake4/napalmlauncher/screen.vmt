@@ -1,0 +1,14 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/weapons/quake4/napalmlauncher/screen"
+	"$additive" 1
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" "12"
+		}
+	}
+}

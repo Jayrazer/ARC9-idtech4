@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/weapons/quake4/nailgun/mask"
+	"$translucent" 1
+}

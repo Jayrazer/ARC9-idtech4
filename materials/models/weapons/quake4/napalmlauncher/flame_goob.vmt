@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/weapons/quake4/napalmlauncher/flame_goob_d"
+	"$nodecal" 1
+}

@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/quake4/blaster/w_bp"
+	"$bumpmap" "models/weapons/quake4/blaster/w_bp_local"
+	"$surfaceprop" "Metal"
+	"$phong" "1"
+	"$phongexponent" "32"
+	"$phongboost"	"2"
+	"$phongalbedoboost" 	"-1"
+	"$phongfresnelranges"	"[.03 .6 .9]"
+	"$normalmapalphaphongmask" "1"	
+}

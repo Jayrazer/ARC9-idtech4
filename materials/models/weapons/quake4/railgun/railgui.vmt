@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/quake4/railgun/railgui"
+	"$additive" 1
+	"$selfillum" 1
+	"$selfillumtint" "[0.5 2.0 0.5]"]
+	"Proxies"
+	{
+		"Sine"
+		{
+			"sineperiod" .5
+			"sinemin" "1"
+			"sinemax" "1.5"
+			"resultVar" "$selfillumTint"
+		}
+	}
+}

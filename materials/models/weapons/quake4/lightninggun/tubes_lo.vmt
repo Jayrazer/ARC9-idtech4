@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/quake4/lightninggun/tubes_lo_d"
+	"$translucent" 1
+}

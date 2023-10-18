@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/entities/q4_ammo_lightning"
+	"$nolod" 1 
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "sprites/quake4/darkmatter_add"
+	"$additive" 1
+	"$nocull" 1
+}

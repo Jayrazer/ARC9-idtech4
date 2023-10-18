@@ -1,0 +1,24 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/quake4/hyperblaster/mhb_lo_d"
+	"$bumpmap" "models/weapons/quake4/hyperblaster/mhb_lo_local"
+	"$surfaceprop" "Metal"
+	"$selfillum" 1
+	"Proxies"
+	{
+		"Sine"
+		{
+			"sineperiod" .5
+			"sinemin" "1"
+			"sinemax" "1.5"
+			"resultVar" "$selfillumTint"
+		}
+	}
+	
+	"$phong" "1"
+	"$phongexponent" "16"
+	"$phongboost"	"4"
+	"$phongalbedoboost" 	"-1"
+	"$phongfresnelranges"	"[.03 .6 .9]"
+	"$normalmapalphaphongmask" "1"	
+}

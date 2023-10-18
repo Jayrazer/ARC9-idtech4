@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/quake4/machinegun/mmg_culled_lo_d"
+	"$bumpmap" "models/weapons/quake4/machinegun/mmg_culled_lo_local"
+	"$surfaceprop" "Metal"
+	"$phong" "1"
+	"$phongexponent" "128"
+	"$phongboost"	"32"
+	"$phongalbedoboost" 	"-1"
+	"$phongfresnelranges"	"[.03 .6 .9]"
+	"$basemapalphaphongmask" "1"	
+}

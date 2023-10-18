@@ -1,0 +1,14 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/quake4/railgun/rg_d"
+	"$bumpmap" "models/weapons/quake4/railgun/rg_local"
+	"$surfaceprop" "Metal"
+	"$selfillum" 1
+	
+	"$phong" "1"
+	"$phongexponent" "16"
+	"$phongboost"	"4"
+	"$phongalbedoboost" 	"-1"
+	"$phongfresnelranges"	"[.03 .6 .9]"
+	"$normalmapalphaphongmask" "1"	
+}

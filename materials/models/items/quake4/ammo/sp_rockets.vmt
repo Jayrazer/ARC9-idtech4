@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/items/quake4/ammo/sp_rockets"
+	"$bumpmap" "models/items/quake4/ammo/sp_rockets_local"
+	"$surfaceprop" "Metal_Box"
+	"$selfillum" "1"
+}

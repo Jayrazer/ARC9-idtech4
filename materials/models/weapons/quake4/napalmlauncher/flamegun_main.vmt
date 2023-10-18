@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/quake4/napalmlauncher/flamegun_main_d"
+	"$bumpmap" "models/weapons/quake4/napalmlauncher/flamegun_main_local"
+	"$normalmapalphaphongmask" "1"
+	"$phong" "1"
+	"$phongexponent" "16"
+	"$phongboost"	"4"
+	"$phongalbedoboost" 	"-1"
+	"$phongfresnelranges"	"[.03 .6 .9]"
+	"$surfaceprop" "Metal"
+	"$selfillum" "1"
+}

@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/quake4/nailgun/w_ng_d"
+	"$bumpmap" "models/weapons/quake4/nailgun/w_ng_local"
+	"$surfaceprop" "Metal"
+}

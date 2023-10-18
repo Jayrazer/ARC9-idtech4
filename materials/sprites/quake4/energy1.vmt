@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "sprites/quake4/energy1"
+	"$additive" 1
+}

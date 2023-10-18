@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/quake4/napalmlauncher/flamegun_glass_d"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/weapons/quake4/napalmlauncher/flamegun_glass_s"
+	"$surfaceprop" "Glass"
+	"$additive" 1
+}

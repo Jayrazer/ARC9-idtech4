@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/weapons/quake4/lightninggun/lgun"
+	"$additive" 1
+}

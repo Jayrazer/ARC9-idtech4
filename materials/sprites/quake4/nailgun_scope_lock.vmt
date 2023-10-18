@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "sprites/quake4/nailgun_scope_lock"
+	"$additive" 1
+}

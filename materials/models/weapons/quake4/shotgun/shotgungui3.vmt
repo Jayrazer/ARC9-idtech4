@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/quake4/shotgun/shotgungui"
+	"$additive" 1
+	"$selfillum" 1
+	"$selfillumtint" "[1.0 0.5 0.01]"
+}

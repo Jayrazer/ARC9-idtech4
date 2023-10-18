@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/items/quake4/ammo/medlabs"
+	"$detail" "models/items/quake4/ammo/medlabs_detail"
+	"$surfaceprop" "Glass"
+	"$translucent" 1
+}
