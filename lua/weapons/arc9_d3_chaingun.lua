@@ -26,17 +26,12 @@ SWEP.Description = [[UAC Mach-2 Chain Gun
 Experimental man-portable autocannon. Designed to provide maximum suppressive fire and able to pierce armored targets with its powerful .30 caliber bullets. It's earned the nickname "Saw" thanks to its ability to literally cut targets in half.]]
 
 SWEP.ViewModel = "models/weapons/doom3/c_chaingun.mdl"
-SWEP.WorldModel = ""
+SWEP.WorldModel = "models/weapons/doom3/w_chaingun.mdl"
 
 SWEP.Slot = 3
 
-SWEP.MirrorVMWM = true
-SWEP.WorldModelOffset = {
-    Pos = Vector(-8, 4, -6),
-    TPIKPos = Vector(-15, 3, 3),
-    Ang = Angle(-10, 0, 180),
-    Scale = 0.75
-}
+SWEP.MirrorVMWM = false
+
 SWEP.NoTPIKVMPos = true
 
 SWEP.Crosshair = true
@@ -202,9 +197,9 @@ SWEP.BipodPos = Vector(0, 0, 0)
 
 -------------------------- HoldTypes
 
-SWEP.HoldType = "smg"
-SWEP.HoldTypeSprint = "normal"
-SWEP.HoldTypeHolstered = "normal"
+SWEP.HoldType = "ar2"
+SWEP.HoldTypeSprint = "passive"
+SWEP.HoldTypeHolstered = "passive"
 SWEP.HoldTypeSights = "rpg"
 SWEP.HoldTypeCustomize = "slam"
 SWEP.HoldTypeBlindfire = "pistol"

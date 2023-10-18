@@ -26,17 +26,12 @@ SWEP.Description = [[UAC Series 3 Plasma Gun
 Experimental energy weapon, designed to meet the need for a versatile military weapon that uses abundant, low-cost ammo. It is extremely light and its superheated plasma projectiles can melt targets alive.]]
 
 SWEP.ViewModel = "models/weapons/doom3/c_plasmagun.mdl"
-SWEP.WorldModel = ""
+SWEP.WorldModel = "models/weapons/doom3/w_plasmagun.mdl"
 
 SWEP.Slot = 4
 
-SWEP.MirrorVMWM = true
-SWEP.WorldModelOffset = {
-    Pos = Vector(-8, 4, -6),
-    TPIKPos = Vector(-15, 3, 3),
-    Ang = Angle(-10, 0, 180),
-    Scale = 0.75
-}
+SWEP.MirrorVMWM = false
+
 SWEP.NoTPIKVMPos = true
 
 SWEP.Crosshair = true
@@ -226,15 +221,15 @@ SWEP.BipodPos = Vector(0, 0, 0)
 -------------------------- HoldTypes
 
 SWEP.HoldType = "ar2"
-SWEP.HoldTypeSprint = "normal"
-SWEP.HoldTypeHolstered = "normal"
+SWEP.HoldTypeSprint = "passive"
+SWEP.HoldTypeHolstered = "passive"
 SWEP.HoldTypeSights = "rpg"
 SWEP.HoldTypeCustomize = "slam"
 SWEP.HoldTypeBlindfire = "pistol"
 
 SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_AR2
 SWEP.AnimReload = ACT_HL2MP_GESTURE_RELOAD_MAGIC
-SWEP.NonTPIKAnimReload = ACT_HL2MP_GESTURE_RELOAD_AR2
+SWEP.NonTPIKAnimReload = ACT_HL2MP_GESTURE_RELOAD_SMG1
 SWEP.AnimDraw = false
 
 -------------------------- EFFECTS

@@ -26,17 +26,12 @@ SWEP.Description = [[Vulcan 1270 Double-Barrel Shotgun
 Double-barreled shotgun designed for sport shooting and hunting. Despite not being designed for combat, it is absolutely devestating up close and will turn anything short of a solid block of steel into a bloody pulp.]]
 
 SWEP.ViewModel = "models/weapons/doom3/c_dshotgun.mdl"
-SWEP.WorldModel = ""
+SWEP.WorldModel = "models/weapons/doom3/w_dshotgun.mdl"
 
 SWEP.Slot = 2
 
-SWEP.MirrorVMWM = true
-SWEP.WorldModelOffset = {
-    Pos = Vector(-8, 4, -6),
-    TPIKPos = Vector(-15, 3, 3),
-    Ang = Angle(-10, 0, 180),
-    Scale = 0.75
-}
+SWEP.MirrorVMWM = false
+
 SWEP.NoTPIKVMPos = true
 
 SWEP.Crosshair = true
@@ -200,15 +195,15 @@ SWEP.BipodPos = Vector(0, 0, 0)
 -------------------------- HoldTypes
 
 SWEP.HoldType = "shotgun"
-SWEP.HoldTypeSprint = "normal"
-SWEP.HoldTypeHolstered = "normal"
+SWEP.HoldTypeSprint = "passive"
+SWEP.HoldTypeHolstered = "passive"
 SWEP.HoldTypeSights = "rpg"
 SWEP.HoldTypeCustomize = "slam"
 SWEP.HoldTypeBlindfire = "pistol"
 
-SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_AR2
+SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_SHOTGUN
 SWEP.AnimReload = ACT_HL2MP_GESTURE_RELOAD_MAGIC
-SWEP.NonTPIKAnimReload = ACT_HL2MP_GESTURE_RELOAD_AR2
+SWEP.NonTPIKAnimReload = ACT_HL2MP_GESTURE_RELOAD_SHOTGUN
 SWEP.AnimDraw = false
 
 -------------------------- EFFECTS

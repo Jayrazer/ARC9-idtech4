@@ -26,17 +26,12 @@ SWEP.Description = [[UAC MANPRL
 Experimental multi-shot rocket launcher developed for use within UAC Marine Heavy Weapon Squads.  The 5-shot clip allows the user to fire a volley of destructive rockets quickly.]]
 
 SWEP.ViewModel = "models/weapons/doom3/c_rocketl.mdl"
-SWEP.WorldModel = ""
+SWEP.WorldModel = "models/weapons/doom3/w_rocketlauncher.mdl"
 
 SWEP.Slot = 4
 
-SWEP.MirrorVMWM = true
-SWEP.WorldModelOffset = {
-    Pos = Vector(-8, 4, -6),
-    TPIKPos = Vector(-15, 3, 3),
-    Ang = Angle(-10, 0, 180),
-    Scale = 0.75
-}
+SWEP.MirrorVMWM = false
+
 SWEP.NoTPIKVMPos = true
 
 SWEP.Crosshair = true
@@ -226,15 +221,15 @@ SWEP.BipodPos = Vector(0, 0, 0)
 -------------------------- HoldTypes
 
 SWEP.HoldType = "rpg"
-SWEP.HoldTypeSprint = "normal"
-SWEP.HoldTypeHolstered = "normal"
+SWEP.HoldTypeSprint = "passive"
+SWEP.HoldTypeHolstered = "passive"
 SWEP.HoldTypeSights = "rpg"
 SWEP.HoldTypeCustomize = "slam"
 SWEP.HoldTypeBlindfire = "pistol"
 
-SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_AR2
+SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_RPG
 SWEP.AnimReload = ACT_HL2MP_GESTURE_RELOAD_MAGIC
-SWEP.NonTPIKAnimReload = ACT_HL2MP_GESTURE_RELOAD_AR2
+SWEP.NonTPIKAnimReload = ACT_HL2MP_GESTURE_RELOAD_SMG1
 SWEP.AnimDraw = false
 
 -------------------------- EFFECTS

@@ -26,17 +26,12 @@ SWEP.Description = [[Vulcan 920 Combat Shotgun
 Standard-issue combat shotgun for UAC Marines. While pump-action shotguns may be archaic, they're still powerful and reliable which has allowed them to remain popular for over 200 years. While it sports high capacity in a compact form factor, it's oft-maligned by its users due to its wide spread.]]
 
 SWEP.ViewModel = "models/weapons/doom3/c_shotgun.mdl"
-SWEP.WorldModel = ""
+SWEP.WorldModel = "models/weapons/doom3/w_shotgun.mdl"
 
 SWEP.Slot = 2
 
-SWEP.MirrorVMWM = true
-SWEP.WorldModelOffset = {
-    Pos = Vector(-8, 4, -6),
-    TPIKPos = Vector(-15, 3, 3),
-    Ang = Angle(-10, 0, 180),
-    Scale = 0.75
-}
+SWEP.MirrorVMWM = false
+
 SWEP.NoTPIKVMPos = true
 
 SWEP.Crosshair = true
@@ -90,7 +85,7 @@ SWEP.AutoReload = true
 
 -------------------------- FIREMODES
 
-SWEP.RPM = 45
+SWEP.RPM = 55
 
 SWEP.Firemodes = {
     {
@@ -199,15 +194,15 @@ SWEP.BipodPos = Vector(0, 0, 0)
 -------------------------- HoldTypes
 
 SWEP.HoldType = "shotgun"
-SWEP.HoldTypeSprint = "normal"
-SWEP.HoldTypeHolstered = "normal"
+SWEP.HoldTypeSprint = "passive"
+SWEP.HoldTypeHolstered = "passive"
 SWEP.HoldTypeSights = "rpg"
 SWEP.HoldTypeCustomize = "slam"
 SWEP.HoldTypeBlindfire = "pistol"
 
-SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_AR2
+SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_SHOTGUN
 SWEP.AnimReload = ACT_HL2MP_GESTURE_RELOAD_MAGIC
-SWEP.NonTPIKAnimReload = ACT_HL2MP_GESTURE_RELOAD_AR2
+SWEP.NonTPIKAnimReload = ACT_HL2MP_GESTURE_RELOAD_SHOTGUN
 SWEP.AnimDraw = false
 
 -------------------------- EFFECTS
@@ -291,5 +286,11 @@ SWEP.SuppressDefaultEvents = true
 -------------------------- ATTACHMENTS
 
 SWEP.Attachments = {
-
+	{
+		PrintName = "Ammo",
+		Bone = "bone046",
+		Pos = Vector(0, 0, -4),
+        Ang = Angle(0, 0, 0),
+		Category = {"idt4_ammo_shotgun"}
+	},
 }

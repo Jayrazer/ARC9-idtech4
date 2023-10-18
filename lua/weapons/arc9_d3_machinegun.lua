@@ -26,17 +26,12 @@ SWEP.Description = [[MG-88 Avenger
 Standard-issue automatic weapon for UAC Marines and Mars City Security Forces, capable of a high rate of fire thanks to its two reciprocating barrels. Though it boasts a high capacity and low recoil, its raw per-shot damage leaves something to be desired.]]
 
 SWEP.ViewModel = "models/weapons/doom3/c_machinegun.mdl"
-SWEP.WorldModel = ""
+SWEP.WorldModel = "models/weapons/doom3/w_machinegun.mdl"
 
 SWEP.Slot = 3
 
-SWEP.MirrorVMWM = true
-SWEP.WorldModelOffset = {
-    Pos = Vector(-8, 4, -6),
-    TPIKPos = Vector(-15, 3, 3),
-    Ang = Angle(-10, 0, 180),
-    Scale = 0.75
-}
+SWEP.MirrorVMWM = false
+
 SWEP.NoTPIKVMPos = true
 
 SWEP.Crosshair = true
@@ -199,15 +194,15 @@ SWEP.BipodPos = Vector(0, 0, 0)
 -------------------------- HoldTypes
 
 SWEP.HoldType = "smg"
-SWEP.HoldTypeSprint = "normal"
-SWEP.HoldTypeHolstered = "normal"
+SWEP.HoldTypeSprint = "passive"
+SWEP.HoldTypeHolstered = "passive"
 SWEP.HoldTypeSights = "rpg"
 SWEP.HoldTypeCustomize = "slam"
 SWEP.HoldTypeBlindfire = "pistol"
 
-SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_AR2
+SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_SMG
 SWEP.AnimReload = ACT_HL2MP_GESTURE_RELOAD_MAGIC
-SWEP.NonTPIKAnimReload = ACT_HL2MP_GESTURE_RELOAD_AR2
+SWEP.NonTPIKAnimReload = ACT_HL2MP_GESTURE_RELOAD_SMG
 SWEP.AnimDraw = false
 
 -------------------------- EFFECTS
