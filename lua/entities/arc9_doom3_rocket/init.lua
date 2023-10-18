@@ -47,7 +47,7 @@ function ENT:Initialize()
 end
 
 function ENT:PhysicsCollide(data, physobj)
-	local rad, dmg = 125, 100
+	local rad, dmg = 175, 100
 	local start = data.HitPos + data.HitNormal
     local endpos = data.HitPos - data.HitNormal
 	

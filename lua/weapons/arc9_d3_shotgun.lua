@@ -45,10 +45,10 @@ SWEP.DefaultBodygroups = "0000000000000000000000"
 
 -------------------------- DAMAGE PROFILE
 
-SWEP.DamageMax = 15 -- Damage done at point blank range
-SWEP.DamageMin = 15 -- Damage done at maximum range
+SWEP.DamageMax = 195 // 15 damage per pellet. This is genuinely the damage output of the D3 shotgun, no wonder they made the spread so ludicrous.
+SWEP.DamageMin = 195
 
-SWEP.Num = 12
+SWEP.Num = 13
 
 SWEP.DistributeDamage = true
 
@@ -62,7 +62,7 @@ SWEP.RicochetChance = 0.1
 
 SWEP.BodyDamageMults = {
     [HITGROUP_HEAD] = 2,
-    [HITGROUP_CHEST] = 1.1,
+    [HITGROUP_CHEST] = 1,
     [HITGROUP_STOMACH] = 1,
     [HITGROUP_LEFTARM] = 1,
     [HITGROUP_RIGHTARM] = 1,
@@ -146,7 +146,7 @@ SWEP.VisualRecoilCenter = Vector(4.525, 4, -3)
 
 -------------------------- SPREAD
 
-SWEP.Spread = 0.1
+SWEP.Spread = 0.15 // not accurate to D3 but 22 degrees horizontal (1320 MOA!!!!) is retarded bite me purists
 
 -------------------------- HANDLING
 

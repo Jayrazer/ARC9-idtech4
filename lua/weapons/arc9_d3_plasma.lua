@@ -40,8 +40,7 @@ SWEP.WorldModelOffset = {
 SWEP.NoTPIKVMPos = true
 
 SWEP.Crosshair = true
-SWEP.LauncherCrosshair = false
-SWEP.MissileCrosshair = false
+SWEP.ForceStandardCrosshair = true	
 
 SWEP.DefaultBodygroups = "0000000000000000000000"
 

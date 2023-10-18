@@ -146,7 +146,7 @@ SWEP.VisualRecoilCenter = Vector(4.525, 4, -3)
 
 -------------------------- SPREAD
 
-SWEP.Spread = 0.05
+SWEP.Spread = 0.03
 
 -------------------------- HANDLING
 

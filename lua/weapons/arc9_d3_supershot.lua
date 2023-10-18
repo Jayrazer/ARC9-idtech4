@@ -45,10 +45,10 @@ SWEP.DefaultBodygroups = "0000000000000000000000"
 
 -------------------------- DAMAGE PROFILE
 
-SWEP.DamageMax = 16 -- Damage done at point blank range
-SWEP.DamageMin = 16 -- Damage done at maximum range
+SWEP.DamageMax = 320 -- Damage done at point blank range
+SWEP.DamageMin = 320 -- Damage done at maximum range
 
-SWEP.Num = 18
+SWEP.Num = 20
 
 SWEP.DistributeDamage = true
 
@@ -147,7 +147,7 @@ SWEP.VisualRecoilCenter = Vector(4.525, 4, -3)
 
 -------------------------- SPREAD
 
-SWEP.Spread = 0.15
+SWEP.Spread = 0.2
 
 -------------------------- HANDLING
 

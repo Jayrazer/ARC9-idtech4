@@ -6,6 +6,6 @@
 - Projectile entities
 - Fix up viewmodels with missing verticies
 - Fix up some anims
+- Add a toggle for different damage values (Original SP + MP damage)
 
 # Done
-- Doom 3 shotgun
