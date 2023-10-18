@@ -90,7 +90,7 @@ SWEP.AutoReload = true
 
 -------------------------- FIREMODES
 
-SWEP.RPM = 55
+SWEP.RPM = 70
 
 SWEP.Firemodes = {
     {
@@ -183,15 +183,15 @@ SWEP.HasSights = false
 SWEP.SprintAng = Angle(5, -10, 0)
 SWEP.SprintPos = Vector(0, -7, 0)
 
-SWEP.ViewModelFOVBase = 60
-SWEP.ActivePos = Vector(0, -7, -0.5)
-SWEP.ActiveAng = Angle(0, 3, 0)
+SWEP.ViewModelFOVBase = 62
+SWEP.ActivePos = Vector(-1, -7, -0.5)
+SWEP.ActiveAng = Angle(-3, 3, 0)
 
 SWEP.CrouchPos = Vector(1, 4, -1)
 SWEP.CrouchAng = Angle(5, 6, 0)
 
-SWEP.CustomizeAng = Angle(90, 5, 7)
-SWEP.CustomizePos = Vector(13, 27, 5)
+SWEP.CustomizeAng = Angle(90, 5, -2)
+SWEP.CustomizePos = Vector(28, 30, 5)
 SWEP.CustomizeSnapshotFOV = 100
 
 SWEP.BipodPos = Vector(0, 0, 0)
@@ -310,6 +310,8 @@ SWEP.Attachments = {
 	{
 		PrintName = "Attachment",
 		Bone = "body",
+		Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
 		Category = {"q4shotgun_mag", "idt4_ammo_shotgun"}
 	},
 }
