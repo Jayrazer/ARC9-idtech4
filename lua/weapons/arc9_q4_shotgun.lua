@@ -90,7 +90,7 @@ SWEP.AutoReload = true
 
 -------------------------- FIREMODES
 
-SWEP.RPM = 70
+SWEP.RPM = 60
 
 SWEP.Firemodes = {
     {
@@ -249,7 +249,7 @@ SWEP.Animations = {
     ["draw"] = {
         Source = "raise",
         EventTable = {
-            {},
+            {s = path .. "pump.ogg", t = 3 / 33},
         }
     },
 	["holster"] = {
