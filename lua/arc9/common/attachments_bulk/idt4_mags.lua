@@ -52,7 +52,7 @@ ATT.Free = false
 ATT.Category = {"q4_rl_upgd"}
 
 ATT.ClipSizeOverride = 3
-ATT.RPMMult = 5
+ATT.RPMMult = 4
 ATT.ShotgunReload = true
 ATT.ShootEnt = "arc9_idt4_quake4_rocket_burst"
 ATT.ActivateElements = {"upgrade"}

@@ -23,7 +23,7 @@ SWEP.Credits = {
 }
 
 SWEP.Description = [[Strogg Automatic Rocket Launcher
-Automatic rocket launcher developed for Strogg heavy units that continuously feeds from a large internal ammo pool. It fires slowly but effectively does not require reloading.]]
+Automatic rocket launcher developed for Strogg heavy units that continuously feeds from a large internal ammo pool, effectively removing the need to manually reload.]]
 
 SWEP.ViewModel = "models/weapons/quake4/c_q4_rocketlauncher.mdl"
 SWEP.WorldModel = "models/weapons/doom3/w_rocketlauncher.mdl"
@@ -112,7 +112,7 @@ SWEP.AutoReload = true
 
 -------------------------- FIREMODES
 
-SWEP.RPM = 48
+SWEP.RPM = 65
 
 SWEP.Firemodes = {
     {
@@ -287,7 +287,8 @@ SWEP.Animations = {
     },
 	["fire"] = {
 		Source = "fire_multiplayer",
-		RestoreAmmo = 1, t = 0,
+		Mult = 0.85,
+		RestoreAmmo = 1,
 		EventTable = {
 			{s = loadin, t = 8 / 33},
 		},
@@ -298,6 +299,7 @@ SWEP.Animations = {
 	["reload"] = {
 		Source = "reload",
         EventTable = {
+			{s = loadin, t = 4 / 33},
         },
 	},
 	["reload_insert"] = {
