@@ -41,3 +41,24 @@ ATT.SpreadMult = 0.35
 
 
 ARC9.LoadAttachment(ATT, "idt4_ammo_quad")
+
+-----
+
+ATT = {}
+
+ATT.PrintName = [[Overpenetration Round]]
+ATT.CompactName = [[OVRPEN]]
+//ATT.Icon = Material()
+ATT.Description = [[Oversized railgun slug with nearly triple the mass of the standard, allowing the round to overpenetrate and hit multiple targets. As a result of the overpenetration, the round does less damage overall.]]
+ATT.Pros = {}
+ATT.Cons = {}
+ATT.SortOrder = 1
+ATT.Free = false
+
+ATT.Category = {"q4_rg_ammo"}
+ATT.Penetration = 200
+ATT.DamageMaxMult = 0.75
+ATT.DamageMinMult = 0.75
+
+
+ARC9.LoadAttachment(ATT, "idt4_ammo_overpen")
