@@ -2,7 +2,7 @@ AddCSLuaFile()
 
 SWEP.Base = "arc9_base"
 
-SWEP.Spawnable = false
+SWEP.Spawnable = true
 SWEP.Category = "ARC9 - id Tech 4"
 SWEP.SubCategory = "Quake 4"
 
@@ -146,7 +146,8 @@ SWEP.VisualRecoilCenter = Vector(4.525, 4, -3)
 
 -------------------------- SPREAD
 
-SWEP.Spread = 0.03
+SWEP.Spread = 0
+SWEP.SpreadAddHipFire = 0.03
 
 -------------------------- HANDLING
 
@@ -179,11 +180,11 @@ SWEP.TracerColor = Color(255, 225, 200) -- Color of tracers. Only works if trace
 -------------------------- POSITIONS
 
 SWEP.IronSights = {
-    Pos = Vector(0, 0, 0),
+    Pos = Vector(10, -50, 0),
     Ang = Angle(0, 0, 0),
     Magnification = 2,
     AssociatedSlot = 0, -- Attachment slot to associate the sights with. Causes RT scopes to render.
-    CrosshairInSights = false,
+    CrosshairInSights = true,
     Blur = false, -- If arc9_fx_adsblur 1 then blur gun in that ironsights. Disable if your "ironsights" are not real ironsights
     ---- FLAT SCOPES
     -- These don't look very good; please use actual RT scopes if possible.
@@ -199,9 +200,9 @@ SWEP.HasSights = true
 SWEP.SprintAng = Angle(5, -15, 0)
 SWEP.SprintPos = Vector(1, 1, 0)
 
-SWEP.ViewModelFOVBase = 80
-SWEP.ActivePos = Vector(1, -1, -0.5)
-SWEP.ActiveAng = Angle(3, 3, 0)
+SWEP.ViewModelFOVBase = 65
+SWEP.ActivePos = Vector(1, -2, -0)
+SWEP.ActiveAng = Angle(3, 0, 0)
 
 SWEP.CrouchPos = Vector(1, 3, -0.5)
 SWEP.CrouchAng = Angle(5, 6, 0)
@@ -294,5 +295,11 @@ SWEP.SuppressDefaultEvents = true
 -------------------------- ATTACHMENTS
 
 SWEP.Attachments = {
-
+	{
+		PrintName = "Magazine",
+		Bone = "gun_jt",
+		Pos = Vector(0, 0, 2),
+        Ang = Angle(0, 0, 0),
+		Category = {"q4mg_mag"}
+	},
 }
