@@ -14,7 +14,7 @@ SWEP.Trivia = {
     Manufacturer = "Homeland Armaments",
     Calibre = "7.62x51mm",
     Mechanism = "Gas-Operated Blowback",
-    Year = "2074"
+    Year = "2075"
 }
 
 SWEP.Credits = {
@@ -23,7 +23,7 @@ SWEP.Credits = {
 }
 
 SWEP.Description = [[AR-25 Assault Rifle
-Standard-issue infantry automatic weapon for SMC Marine forces. The weapon features an integral low-power gunsight and a dual-mode trigger that allows for a powerful semi-auto shot when scoped.]]
+Standard-issue infantry automatic weapon for SMC Marine forces. Versatile and capable of excellent suppressive fire. The weapon features an integral low-power gunsight and a dual-mode trigger that allows for a powerful semi-auto shot when scoped.]]
 
 SWEP.ViewModel = "models/weapons/quake4/c_q4_machinegun.mdl"
 SWEP.WorldModel = ""
@@ -46,7 +46,9 @@ SWEP.DefaultBodygroups = "0000000000000000000000"
 -------------------------- DAMAGE PROFILE
 
 SWEP.DamageMax = 15 -- Damage done at point blank range
+SWEP.DamageMaxSights = 20
 SWEP.DamageMin = 15 -- Damage done at maximum range
+SWEP.DamageMinSights = 20
 
 SWEP.Num = 1
 
@@ -91,6 +93,7 @@ SWEP.AutoReload = true
 -------------------------- FIREMODES
 
 SWEP.RPM = 600
+SWEP.RPMSights = 250
 
 SWEP.Firemodes = {
     {
@@ -189,7 +192,7 @@ SWEP.IronSights = {
     ---- FLAT SCOPES
     -- These don't look very good; please use actual RT scopes if possible.
     FlatScope = true,
-    FlatScopeOverlay = nil, -- Material()
+    FlatScopeOverlay = Material("scopes/smgscope.png"), -- Material()
     FlatScopeKeepVM = false,
     FlatScopeBlackBox = false,
     FlatScopeCC = nil -- Color correction table, see default.lua
