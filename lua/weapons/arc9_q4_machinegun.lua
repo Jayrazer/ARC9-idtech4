@@ -19,7 +19,7 @@ SWEP.Trivia = {
 
 SWEP.Credits = {
     Author = "speedonerd",
-    Assets = "id Software, originally ported by Upset, c_hands by speedonerd",
+    Assets = "Raven Software, originally ported by Hidden, c_hands by speedonerd",
 }
 
 SWEP.Description = [[AR-25 Assault Rifle
@@ -234,7 +234,7 @@ SWEP.AnimDraw = false
 
 SWEP.MuzzleParticle = "muzzleflash_smg" -- Used for some muzzle effects.
 
-SWEP.ShellEffect = "nil"
+SWEP.ShellEffect = "arc9_shelleffect"
 SWEP.ShellCorrectAng = Angle(0, 0, 0)
 SWEP.ShellScale = 1
 SWEP.ShellPhysBox = Vector(0.5, 0.5, 2)
