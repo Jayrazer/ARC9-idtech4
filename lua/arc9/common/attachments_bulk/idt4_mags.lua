@@ -37,3 +37,24 @@ ATT.DamageMinMult = 0.66
 ATT.DamageMinMultSights = 0.66
 
 ARC9.LoadAttachment(ATT, "q4_mg_extmag")
+
+-----
+
+ATT = {}
+
+ATT.PrintName = [[SMC Technician's Upgrade]]
+ATT.CompactName = [[UPGD]]
+//ATT.Icon = Material()
+ATT.Description = [[Upgraded launcher with a three-round internal sub-magazine that can fire a quick burst of rockets before being reloaded. Also comes equipped with a short-range tracking device. The rockets fired are slightly weaker than the un-upgraded launcher.]]
+ATT.SortOrder = 0
+ATT.Free = false
+
+ATT.Category = {"q4_rl_upgd"}
+
+ATT.ClipSizeOverride = 3
+ATT.RPMMult = 5
+ATT.ShotgunReload = true
+ATT.ShootEnt = "arc9_idt4_quake4_rocket_burst"
+ATT.ActivateElements = {"upgrade"}
+
+ARC9.LoadAttachment(ATT, "q4_rl_uprade")
