@@ -68,7 +68,7 @@ SWEP.BodyDamageMults = {
 
 -------------------------- ENTITY LAUNCHING
 
-SWEP.ShootEnt = "arc9_doom3_rocket" -- Set to an entity to launch it out of this weapon.
+SWEP.ShootEnt = "arc9_idt4_doom3_rocket" -- Set to an entity to launch it out of this weapon.
 SWEP.ShootEntForce = 900
 SWEP.ShootEntInheritPlayerVelocity = false -- Set to true to inherit velocity
 SWEP.ShootEntInheritPlayerVelocityLimit = 0 -- Upper limit of velocity to inherit. 0 - no limit.
