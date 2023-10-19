@@ -31,10 +31,11 @@ ATT.Free = false
 ATT.Category = {"q4mg_mag"}
 
 ATT.ClipSizeMult = 2
-ATT.DamageMaxMult = 0.66
-ATT.DamageMaxMultSights = 0.66
-ATT.DamageMinMult = 0.66
-ATT.DamageMinMultSights = 0.66
+ATT.DamageMaxMult = 0.67
+ATT.DamageMaxMultSights = 0.67
+ATT.DamageMinMult = 0.67
+ATT.DamageMinMultSights = 0.67
+ATT.ReloadTimeMult = 1.1
 
 ARC9.LoadAttachment(ATT, "q4_mg_extmag")
 
@@ -48,6 +49,15 @@ ATT.CompactName = [[UPGD]]
 ATT.Description = [[Upgraded launcher with a three-round internal sub-magazine that can fire a quick burst of rockets before being reloaded. Also comes equipped with a short-range tracking device. The rockets fired are slightly weaker than the un-upgraded launcher.]]
 ATT.SortOrder = 0
 ATT.Free = false
+
+ATT.CustomPros = {
+    ["Three-rocket burst"] = "",
+}
+
+ATT.CustomCons = {
+	["Direct Damage"] = "-50%",
+	["Splash Damage"] = "-50%",
+}
 
 ATT.Category = {"q4_rl_upgd"}
 
