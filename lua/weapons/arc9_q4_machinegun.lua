@@ -261,6 +261,8 @@ SWEP.DryFireSound = path .. "dry_fire.ogg"
 
 SWEP.DryFireSingleAction = true
 
+SWEP.EnterSightsSound = path .. "zoom_in.ogg"
+SWEP.ExitSightsSound = path .. "zoom_out.ogg"
 
 SWEP.Animations = {
     ["idle"] = {
