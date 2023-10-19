@@ -165,6 +165,8 @@ SWEP.SwayMultShooting = 1.5
 
 SWEP.FreeAimRadiusMultSights = 0
 
+SWEP.HoldBreathTime = 0
+
 SWEP.SwayMultSights = 0.3
 
 SWEP.AimDownSightsTime = 0.1 -- How long it takes to go from hip fire to aiming down sights.
