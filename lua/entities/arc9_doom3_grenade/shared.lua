@@ -1,6 +1,0 @@
-ENT.Type			= "anim"
-ENT.PrintName		= "Doom3 Grenade"
-ENT.Author			= "Upset"
-ENT.Contact			= ""
-ENT.Purpose			= ""
-ENT.Instructions	= ""
