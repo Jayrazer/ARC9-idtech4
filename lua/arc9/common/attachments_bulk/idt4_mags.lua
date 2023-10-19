@@ -32,6 +32,8 @@ ATT.Category = {"q4mg_mag"}
 
 ATT.ClipSizeMult = 2
 ATT.DamageMaxMult = 0.66
+ATT.DamageMaxMultSights = 0.66
 ATT.DamageMinMult = 0.66
+ATT.DamageMinMultSights = 0.66
 
 ARC9.LoadAttachment(ATT, "q4_mg_extmag")
