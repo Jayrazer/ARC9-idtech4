@@ -159,7 +159,7 @@ SWEP.FreeAimRadiusMultSights = 0
 SWEP.SwayMultSights = 0.3
 
 SWEP.TriggerDelay = true
-SWEP.TriggerDelayTime = 0.5
+SWEP.TriggerDelayTime = 0.55
 SWEP.TriggerDelayCancellable = true
 
 SWEP.AimDownSightsTime = 0.35 -- How long it takes to go from hip fire to aiming down sights.
@@ -254,7 +254,8 @@ SWEP.Animations = {
         }
     },
 	["fire"] = {
-		Source = "fire",
+		Source = "fire_new",
+		Mult = 0.85,
         EventTable = {
 			{},
         },
@@ -270,10 +271,17 @@ SWEP.Animations = {
     },
 	["trigger"] = {
 		Source = "windup",
+		Mult = 1.2,
 		EventTable = {
 			{s = path .. "cg_windup_mix_01.wav", t = 0},
 		},
-	}
+	},
+	["untrigger"] = {
+		Source = "winddown_new",
+		EventTable = {
+			{s = path .. "cg_winddown_mix_01.wav", t = 0},
+		},
+	},
 }
 
 SWEP.SuppressCumulativeShoot = true
