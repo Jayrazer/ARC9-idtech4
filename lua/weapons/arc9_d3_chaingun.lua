@@ -190,10 +190,12 @@ SWEP.CrouchPos = Vector(1, 3, -0.5)
 SWEP.CrouchAng = Angle(5, 6, 0)
 
 SWEP.CustomizeAng = Angle(90, 0, 0)
-SWEP.CustomizePos = Vector(9, 27, 6)
+SWEP.CustomizePos = Vector(15, 35, 9)
 SWEP.CustomizeSnapshotFOV = 100
 
 SWEP.BipodPos = Vector(0, 0, 0)
+
+SWEP.CustomizeNoRotate = true
 
 -------------------------- HoldTypes
 
@@ -255,7 +257,7 @@ SWEP.Animations = {
     },
 	["fire"] = {
 		Source = "fire_new",
-		Mult = 0.85,
+		Mult = 0.77,
         EventTable = {
 			{},
         },
@@ -266,9 +268,6 @@ SWEP.Animations = {
             {s = path .. "cg_reload_twist_01.wav", t = 1 / 33}
         },
 	},
-    ["dryfire"] = {
-        Source = "noammo"
-    },
 	["trigger"] = {
 		Source = "windup",
 		Mult = 1.2,

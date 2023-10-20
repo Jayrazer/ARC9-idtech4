@@ -192,6 +192,8 @@ SWEP.CustomizeSnapshotFOV = 100
 
 SWEP.BipodPos = Vector(0, 0, 0)
 
+SWEP.CustomizeNoRotate = true
+
 -------------------------- HoldTypes
 
 SWEP.HoldType = "shotgun"
