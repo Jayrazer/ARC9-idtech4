@@ -297,6 +297,27 @@ SWEP.SuppressDefaultEvents = true
 
 -------------------------- ATTACHMENTS
 
+SWEP.Hook_ModifyBodygroups = function(self, data)
+
+    local vm = data.model
+    local CUSTSTATE = self:GetCustomize()
+
+    if CUSTSTATE then
+        vm:SetBodygroup(1,1)
+    else
+        vm:SetBodygroup(1,0)
+    end
+
+end
+
+SWEP.AttachmentElements = {
+    ["mod"] = {
+        Bodygroups = {
+            {4,1}
+        },
+    },
+}
+
 SWEP.Attachments = {
 	{
 		PrintName = "Ammo",

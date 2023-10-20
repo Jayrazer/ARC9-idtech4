@@ -46,14 +46,15 @@ ARC9.LoadAttachment(ATT, "idt4_ammo_quad")
 
 ATT = {}
 
-ATT.PrintName = [[Overpenetration Round]]
+ATT.PrintName = [[Overpenetration Mod]]
 ATT.CompactName = [[OVRPEN]]
 //ATT.Icon = Material()
-ATT.Description = [[Oversized railgun slug with nearly triple the mass of the standard, allowing the round to overpenetrate and hit multiple targets. As a result of the overpenetration, the round does less damage overall.]]
+ATT.Description = [[Modified accelerator magnet that triples the velocity of the slug, allowing it to overpenetrate and potentially hit multiple targets. As a result of the overpenetration, the slugs do less damage overall.]]
 ATT.Pros = {}
 ATT.Cons = {}
 ATT.SortOrder = 1
 ATT.Free = false
+ATT.ActivateElements = {"mod"}
 
 ATT.Category = {"q4_rg_ammo"}
 ATT.Penetration = 200
