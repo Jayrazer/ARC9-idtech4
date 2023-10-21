@@ -28,7 +28,7 @@ High-tech slug throwing weapon designed by the Strogg and pilfered from one of t
 SWEP.ViewModel = "models/weapons/quake4/c_q4_railgun.mdl"
 SWEP.WorldModel = "models/weapons/quake4/w_q4_railgun.mdl"
 
-SWEP.Slot = 3
+SWEP.Slot = 4
 
 SWEP.MirrorVMWM = false
 
