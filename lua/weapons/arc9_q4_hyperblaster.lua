@@ -12,8 +12,8 @@ SWEP.Class = "Automatic Energy Weapon"
 
 SWEP.Trivia = {
     Manufacturer = "Homeland Armaments",
-    Calibre = "Synthetic Plasma",
-    Mechanism = "Superheated Particle Accelerator",
+    Projectile = "Synthetic Plasma",
+    Mechanism = "Electro-Fusion Condenser Battery", --it's 90's sci-fi jargon, it doesnt need to make a lick of sense
     Year = "2080"
 }
 
@@ -23,7 +23,7 @@ SWEP.Credits = {
 }
 
 SWEP.Description = [[Homeland QBX-50 Hyper Blaster
-Special-purpose energy weapon designed for select SMC Marines that fires superheated plasma projectiles at a high rate of fire.]]
+Special-purpose energy weapon designed for select SMC Marines that fires superheated plasma projectiles at a high rate of fire. The weapon uses a localized plasma source that is superheated via a charge from a battery pack.]]
 
 SWEP.ViewModel = "models/weapons/quake4/c_q4_hyperblaster.mdl"
 SWEP.WorldModel = "models/weapons/quake4/w_q4_hyperblaster.mdl"
