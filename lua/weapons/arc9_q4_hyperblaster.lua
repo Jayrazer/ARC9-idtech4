@@ -70,7 +70,7 @@ SWEP.BodyDamageMults = {
 
 SWEP.ShootEnt = "arc9_idt4_hyperblaster_shot" -- Set to an entity to launch it out of this weapon.
 SWEP.ShootEntForce = 1750
-SWEP.ShootEntInheritPlayerVelocity = true -- Set to true to inherit velocity
+SWEP.ShootEntInheritPlayerVelocity = false -- Set to true to inherit velocity
 SWEP.ShootEntInheritPlayerVelocityLimit = 0 -- Upper limit of velocity to inherit. 0 - no limit.
 SWEP.ShootEntData = {} -- Extra data that can be given to a projectile. Sets ENT.ShootEntData with this table.
 
