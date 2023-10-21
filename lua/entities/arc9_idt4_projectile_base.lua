@@ -7,7 +7,7 @@ ENT.PrintName 			= "Base Projectile"
 ENT.Spawnable 			= false
 ENT.CollisionGroup = COLLISION_GROUP_PROJECTILE
 
-ENT.Model = "models/weapons/arc9/item/bo1_40mm.mdl"
+ENT.Model = "models/items/AR2_Grenade.mdl"
 ENT.Ticks = 0
 ENT.FuseTime = 0
 ENT.Defused = false
