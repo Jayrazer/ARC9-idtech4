@@ -28,7 +28,7 @@ Standard-issue automatic weapon for UAC Marines and Mars City Security Forces, c
 SWEP.ViewModel = "models/weapons/doom3/c_machinegun.mdl"
 SWEP.WorldModel = "models/weapons/doom3/w_machinegun.mdl"
 
-SWEP.Slot = 3
+SWEP.Slot = 2
 
 SWEP.MirrorVMWM = false
 
@@ -202,9 +202,9 @@ SWEP.HoldTypeSights = "rpg"
 SWEP.HoldTypeCustomize = "slam"
 SWEP.HoldTypeBlindfire = "pistol"
 
-SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_SMG
+SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_SMG1
 SWEP.AnimReload = ACT_HL2MP_GESTURE_RELOAD_MAGIC
-SWEP.NonTPIKAnimReload = ACT_HL2MP_GESTURE_RELOAD_SMG
+SWEP.NonTPIKAnimReload = ACT_HL2MP_GESTURE_RELOAD_SMG1
 SWEP.AnimDraw = false
 
 -------------------------- EFFECTS
