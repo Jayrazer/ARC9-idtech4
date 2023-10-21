@@ -1,7 +1,0 @@
-"UnlitGeneric"
-{
-	"$basetexture" "doom3hud/lborder1c"
-	"$vertexcolor" "1"
-	"$vertexalpha" "1"
-	"$nolod" 1
-}
