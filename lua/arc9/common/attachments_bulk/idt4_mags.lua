@@ -68,3 +68,27 @@ ATT.ShootEnt = "arc9_idt4_quake4_rocket_burst"
 ATT.ActivateElements = {"upgrade"}
 
 ARC9.LoadAttachment(ATT, "q4_rl_uprade")
+
+-----
+
+ATT = {}
+
+ATT.PrintName = [[Hair Trigger]]
+ATT.CompactName = [[TRG]]
+//ATT.Icon = Material()
+ATT.Description = [[Lightweight trigger that increases RPM, but requires a deft hand to use to its full potential.]]
+ATT.SortOrder = 0
+ATT.Free = false
+
+ATT.Category = {"d3_pistol_trigger"}
+
+ATT.Firemodes = {
+    { 
+        Mode = 1,
+		PrintName = "Semi"
+    }
+}
+
+ATT.RPMMult = 2
+
+ARC9.LoadAttachment(ATT, "d3_pistol_semi")

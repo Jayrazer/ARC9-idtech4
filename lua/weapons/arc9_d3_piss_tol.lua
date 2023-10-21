@@ -283,4 +283,10 @@ SWEP.Attachments = {
         Ang = Angle(0, 0, 0),
 		Category = {"d3_pistol_gangster"}
 	},
+	{
+		PrintName = "Trigger",
+		Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+		Category = {"d3_pistol_trigger"}
+	},
 }
