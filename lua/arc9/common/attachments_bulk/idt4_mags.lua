@@ -73,7 +73,7 @@ ARC9.LoadAttachment(ATT, "q4_rl_uprade")
 
 ATT = {}
 
-ATT.PrintName = [[Hair Trigger]]
+ATT.PrintName = [[Deckard Hair Trigger]]
 ATT.CompactName = [[TRG]]
 //ATT.Icon = Material()
 ATT.Description = [[Lightweight trigger that increases RPM, but requires a deft hand to use to its full potential.]]
@@ -92,3 +92,27 @@ ATT.Firemodes = {
 ATT.RPMMult = 2
 
 ARC9.LoadAttachment(ATT, "d3_pistol_semi")
+
+-----
+
+ATT = {}
+
+ATT.PrintName = [[Nailgun Dual Magazines]]
+ATT.CompactName = [[DUALMAG]]
+//ATT.Icon = Material()
+ATT.Description = [[Reconfigured feed system that loads from two individual magazines, doubling the capacity and firerate at the cost of projectile velocity.]]
+ATT.SortOrder = 0
+ATT.Free = false
+ATT.ActivateElements = {"dualmag"}
+
+ATT.Category = {"q4nailgun_mag"}
+
+ATT.CustomCons = {
+	["Projectile Speed"] = "-25%",
+}
+
+ATT.ClipSizeMult = 2
+ATT.RPMMult = 1.6
+ATT.ShootEntForce = 1000
+
+ARC9.LoadAttachment(ATT, "q4_nailgun_dualmag")
