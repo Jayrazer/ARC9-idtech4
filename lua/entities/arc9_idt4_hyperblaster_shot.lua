@@ -6,7 +6,7 @@ ENT.PrintName 			= "Hyperblaster Shot"
 ENT.Spawnable 			= false
 
 ENT.Model = "models/items/AR2_Grenade.mdl"
-ENT.BoxSize = Vector(1, 1, 1)
+ENT.BoxSize = Vector(2, 2, 2)
 ENT.Drunkenness = 0
 ENT.Defused = true
 
@@ -96,7 +96,7 @@ if SERVER then
             local dmg = DamageInfo()
             dmg:SetAttacker(IsValid(self:GetOwner()) and self:GetOwner() or self)
             dmg:SetInflictor(self)
-            dmg:SetDamageType(DMG_BLAST) -- helicopters
+            dmg:SetDamageType(DMG_BULLET) -- helicopters
             dmg:SetDamage(self.ImpactDamage)
             dmg:SetDamagePosition(colData.HitPos)
             dmg:SetDamageForce(self:GetForward() * self.ImpactDamage)
