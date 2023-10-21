@@ -26,7 +26,7 @@ SWEP.Description = [[Strogg Automatic Rocket Launcher
 Automatic rocket launcher developed for Strogg heavy units that continuously feeds from a large internal ammo pool, effectively removing the need to manually reload.]]
 
 SWEP.ViewModel = "models/weapons/quake4/c_q4_rocketlauncher.mdl"
-SWEP.WorldModel = "models/weapons/doom3/w_rocketlauncher.mdl"
+SWEP.WorldModel = "models/weapons/quake4/w_q4_rocketlauncher.mdl"
 
 SWEP.Slot = 4
 
@@ -222,7 +222,7 @@ SWEP.CustomizeNoRotate = true
 
 -------------------------- HoldTypes
 
-SWEP.HoldType = "rpg"
+SWEP.HoldType = "ar2"
 SWEP.HoldTypeSprint = "passive"
 SWEP.HoldTypeHolstered = "passive"
 SWEP.HoldTypeSights = "rpg"

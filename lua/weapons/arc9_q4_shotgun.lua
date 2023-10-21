@@ -26,17 +26,12 @@ SWEP.Description = [[Raven 1080 Shotgun
 Standard-issue combat shotgun for SMC Marine Technicians, designed for use in close-quarters for high damage output. The weapon features a modular design that allows it to feed either from its internal tube magazine or from a detachable box magazine.]]
 
 SWEP.ViewModel = "models/weapons/quake4/c_q4_shotgun.mdl"
-SWEP.WorldModel = ""
+SWEP.WorldModel = "models/weapons/quake4/w_q4_shotgun.mdl"
 
 SWEP.Slot = 2
 
-SWEP.MirrorVMWM = true
-SWEP.WorldModelOffset = {
-    Pos = Vector(-8, 4, -6),
-    TPIKPos = Vector(-15, 3, 3),
-    Ang = Angle(-10, 0, 180),
-    Scale = 0.75
-}
+SWEP.MirrorVMWM = false
+
 SWEP.NoTPIKVMPos = true
 
 SWEP.Crosshair = true
@@ -201,15 +196,15 @@ SWEP.CustomizeNoRotate = true
 -------------------------- HoldTypes
 
 SWEP.HoldType = "shotgun"
-SWEP.HoldTypeSprint = "normal"
-SWEP.HoldTypeHolstered = "normal"
+SWEP.HoldTypeSprint = "passive"
+SWEP.HoldTypeHolstered = "passive"
 SWEP.HoldTypeSights = "rpg"
 SWEP.HoldTypeCustomize = "slam"
 SWEP.HoldTypeBlindfire = "pistol"
 
 SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_AR2
 SWEP.AnimReload = ACT_HL2MP_GESTURE_RELOAD_MAGIC
-SWEP.NonTPIKAnimReload = ACT_HL2MP_GESTURE_RELOAD_AR2
+SWEP.NonTPIKAnimReload = ACT_HL2MP_GESTURE_RELOAD_SHOTGUN
 SWEP.AnimDraw = false
 
 -------------------------- EFFECTS

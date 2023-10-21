@@ -26,17 +26,12 @@ SWEP.Description = [[Strogg Electromagnetic Rail Gun
 High-tech slug throwing weapon designed by the Strogg and pilfered from one of their many armories. Uses electromagnets to accelerate depleted uranium slugs to insane velocities, resulting in stellar accuracy and stopping power.]]
 
 SWEP.ViewModel = "models/weapons/quake4/c_q4_railgun.mdl"
-SWEP.WorldModel = ""
+SWEP.WorldModel = "models/weapons/quake4/w_q4_railgun.mdl"
 
 SWEP.Slot = 3
 
 SWEP.MirrorVMWM = false
-SWEP.WorldModelOffset = {
-    Pos = Vector(-8, 4, -6),
-    TPIKPos = Vector(-15, 3, 3),
-    Ang = Angle(-10, 0, 180),
-    Scale = 0.75
-}
+
 SWEP.NoTPIKVMPos = true
 
 SWEP.Crosshair = true
@@ -78,7 +73,7 @@ SWEP.PhysBulletDrag = 3
 
 -------------------------- MAGAZINE
 
-SWEP.Ammo = "SniperRound" -- What ammo type this gun uses.
+SWEP.Ammo = "SniperPenetratedRound" -- What ammo type this gun uses.
 
 SWEP.ChamberSize = 0 -- The amount of rounds this gun can chamber.
 SWEP.ClipSize = 3 -- Self-explanatory.
@@ -209,7 +204,7 @@ SWEP.CrouchPos = Vector(0, -2, -0.5)
 SWEP.CrouchAng = Angle(1, 0, 0)
 
 SWEP.CustomizeAng = Angle(85, 0, -4.5)
-SWEP.CustomizePos = Vector(25, 27, 9)
+SWEP.CustomizePos = Vector(28, 27, 11)
 SWEP.CustomizeSnapshotFOV = 100
 
 SWEP.BipodPos = Vector(0, 0, 0)
@@ -218,9 +213,9 @@ SWEP.CustomizeNoRotate = true
 
 -------------------------- HoldTypes
 
-SWEP.HoldType = "smg"
-SWEP.HoldTypeSprint = "normal"
-SWEP.HoldTypeHolstered = "normal"
+SWEP.HoldType = "ar2"
+SWEP.HoldTypeSprint = "passive"
+SWEP.HoldTypeHolstered = "passive"
 SWEP.HoldTypeSights = "rpg"
 SWEP.HoldTypeCustomize = "slam"
 SWEP.HoldTypeBlindfire = "pistol"
@@ -320,7 +315,7 @@ SWEP.AttachmentElements = {
 
 SWEP.Attachments = {
 	{
-		PrintName = "Ammo",
+		PrintName = "Upgrade",
 		Bone = "srocket_body",
 		Pos = Vector(0, 0, 2),
         Ang = Angle(0, 0, 0),

@@ -26,17 +26,12 @@ SWEP.Description = [[AR-25 Assault Rifle
 Standard-issue infantry automatic weapon for SMC Marine forces. Versatile and capable of excellent suppressive fire. The weapon features an integral low-power gunsight and a dual-mode trigger that allows for a powerful semi-auto shot when scoped.]]
 
 SWEP.ViewModel = "models/weapons/quake4/c_q4_machinegun.mdl"
-SWEP.WorldModel = ""
+SWEP.WorldModel = "models/weapons/quake4/w_q4_machinegun.mdl"
 
 SWEP.Slot = 2
 
-SWEP.MirrorVMWM = true
-SWEP.WorldModelOffset = {
-    Pos = Vector(-8, 4, -6),
-    TPIKPos = Vector(-15, 3, 3),
-    Ang = Angle(-10, 0, 180),
-    Scale = 0.75
-}
+SWEP.MirrorVMWM = false
+
 SWEP.NoTPIKVMPos = true
 
 SWEP.Crosshair = true
@@ -209,8 +204,8 @@ SWEP.ViewModelFOVBase = 65
 SWEP.ActivePos = Vector(1, -2, -0)
 SWEP.ActiveAng = Angle(3, 0, 0)
 
-SWEP.CrouchPos = Vector(1, 3, -0.5)
-SWEP.CrouchAng = Angle(5, 6, 0)
+SWEP.CrouchPos = Vector(0, -2, -0.5)
+SWEP.CrouchAng = Angle(3, 0, 0)
 
 SWEP.CustomizeAng = Angle(85, 0, -4.5)
 SWEP.CustomizePos = Vector(25, 27, 9)
@@ -222,9 +217,9 @@ SWEP.CustomizeNoRotate = true
 
 -------------------------- HoldTypes
 
-SWEP.HoldType = "smg"
-SWEP.HoldTypeSprint = "normal"
-SWEP.HoldTypeHolstered = "normal"
+SWEP.HoldType = "ar2"
+SWEP.HoldTypeSprint = "passive"
+SWEP.HoldTypeHolstered = "passive"
 SWEP.HoldTypeSights = "rpg"
 SWEP.HoldTypeCustomize = "slam"
 SWEP.HoldTypeBlindfire = "pistol"
