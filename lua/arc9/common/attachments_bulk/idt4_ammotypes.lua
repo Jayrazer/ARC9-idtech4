@@ -63,3 +63,35 @@ ATT.DamageMinMult = 0.75
 
 
 ARC9.LoadAttachment(ATT, "idt4_ammo_overpen")
+
+-----
+
+ATT = {}
+
+ATT.PrintName = [[gangster sounds]]
+ATT.CompactName = [[gangter]]
+//ATT.Icon = Material()
+ATT.Description = [[gangtser sounds fuck tha polic ecomming straight from the undergroun
+(Switches firing sound to NPC firing sounds)]]
+ATT.Pros = {}
+ATT.Cons = {}
+ATT.SortOrder = 1
+ATT.Free = false
+
+ATT.CustomPros = {
+    ["swag level"] = "+10000000000%",
+}
+
+ATT.Category = {"d3_pistol_gangster"}
+
+local path = "weapons/doom3/pistol/fire/fire_"
+
+ATT.ShootSound = {
+	path .. "01.wav",
+	path .. "02.wav",
+	path .. "03.wav",
+	path .. "04.wav",
+	path .. "05.wav",
+}
+
+ARC9.LoadAttachment(ATT, "idt4_ammo_gangster")

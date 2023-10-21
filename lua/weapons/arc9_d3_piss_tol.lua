@@ -277,5 +277,10 @@ SWEP.SuppressDefaultEvents = true
 -------------------------- ATTACHMENTS
 
 SWEP.Attachments = {
-
+	{
+		PrintName = "Sounds",
+		Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+		Category = {"d3_pistol_gangster"}
+	},
 }
