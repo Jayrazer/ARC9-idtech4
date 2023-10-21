@@ -12,7 +12,7 @@ SWEP.Class = "Synthetic Energy Weapon"
 
 SWEP.Trivia = {
     Manufacturer = "UAC Advanced Weapon Labs",
-    Calibre = "Synthetic Plasma",
+    Projectile = "Synthetic Plasma",
     Mechanism = "Superheated Particle Accelerator",
     Year = "2144"
 }
@@ -28,7 +28,7 @@ Experimental energy weapon, designed to meet the need for a versatile military w
 SWEP.ViewModel = "models/weapons/doom3/c_plasmagun.mdl"
 SWEP.WorldModel = "models/weapons/doom3/w_plasmagun.mdl"
 
-SWEP.Slot = 4
+SWEP.Slot = 3
 
 SWEP.MirrorVMWM = false
 
@@ -68,7 +68,7 @@ SWEP.BodyDamageMults = {
 
 -------------------------- ENTITY LAUNCHING
 
-SWEP.ShootEnt = "arc9_doom3_plasma" -- Set to an entity to launch it out of this weapon.
+SWEP.ShootEnt = "arc9_idt4_plasma_shot" -- Set to an entity to launch it out of this weapon.
 SWEP.ShootEntForce = 1000
 SWEP.ShootEntInheritPlayerVelocity = false -- Set to true to inherit velocity
 SWEP.ShootEntInheritPlayerVelocityLimit = 0 -- Upper limit of velocity to inherit. 0 - no limit.
@@ -206,14 +206,14 @@ SWEP.SprintAng = Angle(5, -15, 0)
 SWEP.SprintPos = Vector(1, 1, 0)
 
 SWEP.ViewModelFOVBase = 80
-SWEP.ActivePos = Vector(1, 1, -0.5)
+SWEP.ActivePos = Vector(1, 1, 0)
 SWEP.ActiveAng = Angle(5, 5, 0)
 
-SWEP.CrouchPos = Vector(1, 1, -0.5)
+SWEP.CrouchPos = Vector(0, 1, -0.5)
 SWEP.CrouchAng = Angle(5, 5, 0)
 
-SWEP.CustomizeAng = Angle(90, 0, 0)
-SWEP.CustomizePos = Vector(9, 27, 6)
+SWEP.CustomizeAng = Angle(90, 5, 5)
+SWEP.CustomizePos = Vector(10, 27, 9)
 SWEP.CustomizeSnapshotFOV = 100
 
 SWEP.BipodPos = Vector(0, 0, 0)
@@ -236,7 +236,7 @@ SWEP.AnimDraw = false
 
 -------------------------- EFFECTS
 
-SWEP.MuzzleParticle = "muzzleflash_smg" -- Used for some muzzle effects.
+SWEP.MuzzleEffect = "nil"
 
 SWEP.ShellEffect = "nil"
 SWEP.ShellCorrectAng = Angle(0, 0, 0)
