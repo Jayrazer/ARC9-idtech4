@@ -14,7 +14,7 @@ SWEP.Trivia = {
     Manufacturer = "Homeland Armaments",
     Projectile = "Synthetic Plasma",
     Mechanism = "Electro-Fusion Condenser Battery", --it's 90's sci-fi jargon, it doesnt need to make a lick of sense
-    Year = "2080"
+    Year = "2055"
 }
 
 SWEP.Credits = {

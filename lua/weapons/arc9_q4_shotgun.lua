@@ -14,7 +14,7 @@ SWEP.Trivia = {
     Manufacturer = "Raven Weapon Industries",
     Calibre = "12 Gauge",
     Mechanism = "Pump Action",
-    Year = "2066"
+    Year = "2036"
 }
 
 SWEP.Credits = {

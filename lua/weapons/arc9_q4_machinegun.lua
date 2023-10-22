@@ -14,7 +14,7 @@ SWEP.Trivia = {
     Manufacturer = "Homeland Armaments",
     Calibre = "7.62x51mm",
     Mechanism = "Gas-Operated Blowback",
-    Year = "2075"
+    Year = "2047"
 }
 
 SWEP.Credits = {

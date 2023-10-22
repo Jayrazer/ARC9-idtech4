@@ -14,7 +14,7 @@ SWEP.Trivia = {
     Manufacturer = "Stroggos Military Complex",
     Projectile = "3mm Iron Flechettes",
     Mechanism = "Rotary Pneumatic Mechanism",
-    Year = "2080"
+    Year = "Unknown"
 }
 
 SWEP.Credits = {
