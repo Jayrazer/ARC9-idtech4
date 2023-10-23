@@ -129,7 +129,7 @@ SWEP.BarrelLength = 24
 -------------------------- RECOIL
 
 -- General recoil multiplier
-SWEP.Recoil = 0.5
+SWEP.Recoil = 0.25
 
 -- These multipliers affect the predictible recoil by making the pattern taller, shorter, wider, or thinner.
 SWEP.RecoilUp = 1 -- Multiplier for vertical recoil
@@ -302,6 +302,21 @@ SWEP.SuppressDefaultEvents = true
 
 -------------------------- ATTACHMENTS
 
+SWEP.AttachmentElements = {
+	["bouncycastle"] = {
+		Bodygroups = {
+			{2,1}
+		},
+	},
+}
+
 SWEP.Attachments = {
+	{
+		PrintName = "Battery",
+		Bone = "body",
+		Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+		Category = {"q4_hb_bouncy"}
+	},
 
 }

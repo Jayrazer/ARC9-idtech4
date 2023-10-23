@@ -95,3 +95,30 @@ ATT.ShootSound = {
 }
 
 ARC9.LoadAttachment(ATT, "idt4_ammo_gangster")
+
+-----
+
+ATT = {}
+
+ATT.PrintName = [[Hyperblaster Bounce Shot Upgrade]]
+ATT.CompactName = [[BNCE]]
+//ATT.Icon = Material()
+ATT.Description = [[Specialized battery pack that alters the molecular structure of the fired plasma projectiles, allowing them to bounce off walls a single time. Useful for hitting enemies hidding in cover or around corners.]]
+ATT.SortOrder = 0
+ATT.Free = false
+
+ATT.CustomPros = {
+    ["Projectiles ricochet"] = "",
+}
+
+ATT.CustomCons = {
+	["Weaker projectiles"] = "",
+}
+
+ATT.Category = {"q4_hb_bouncy"}
+
+ATT.RecoilOverride = 0 -- disable recoil to make bounces as predictable as possible
+ATT.ShootEnt = "arc9_idt4_hyperblaster_bounceshot"
+ATT.ActivateElements = {"bouncycastle"}
+
+ARC9.LoadAttachment(ATT, "q4_hb_bouncycastle")
